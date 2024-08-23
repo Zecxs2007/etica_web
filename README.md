@@ -1,1 +1,3 @@
 # CLIENTES_CONTINGENCIA
+
+Esse projeto está sendo desenvolvido para melhorar a forma em que nós visualizamos quais clientes estão com cupons acumulados e quais os erros que eles têm para ser resolvidos, com esse projeto, teremos um site para visualizar os clientes da Ética e quantos cupons eles têm acumulados, ainda penso em uma forma de colocar as cstats dos cupons e alguma observação editável por todos com acesso para ajudar na comunicação entre os técnicos e gestores da empresa.
