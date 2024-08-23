@@ -1,0 +1,17 @@
+{
+  "name": "clientes_contingencia",
+  "version": "1.0.0",
+  "description": "Esse projeto está sendo desenvolvido para melhorar a forma em que nós visualizamos quais clientes estão com cupons acumulados e quais os erros que eles têm para ser resolvidos, com esse projeto, teremos um site para visualizar os clientes da Ética e quantos cupons eles têm acumulados, ainda penso em uma forma de colocar as cstats dos cupons e alguma observação editável por todos com acesso para ajudar na comunicação entre os técnicos e gestores da empresa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.4.0"
+  }
+}
