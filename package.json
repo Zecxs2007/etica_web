@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "express": "^4.19.2",
-    "firebase-admin": "^12.4.0"
+    "firebase-admin": "^12.4.0",
+    "node-firebird": "^1.1.9"
   }
 }
