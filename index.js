@@ -43,8 +43,7 @@ app.use(express.json());
 // GET http://api.clientes-contigencia.com/info/firebase para recuperar dados do Firestore
 app.get('/dados/firebase', (req, res) => {
     console.log('GET dados');
-    admin.firestore()
-        .collection('CLIENTES')
+    firestore.collection('CLIENTES')
         .get()
         .then(snapshot => {
             const dados = snapshot.docs.map(doc => ({
@@ -85,38 +84,48 @@ app.get('/dados/firebird', (req, res) => {
 });
 
 // POST http://api.clientes-contigencia.com/info para enviar dados do Firebird ao Firestore
-app.post('/dados/enviar-dados', (req, res) => {
-    Firebird.attach(dbOptions, (err, db) => {
+app.post('/dados/enviar-dados', async (req, res) => {
+    Firebird.attach(dbOptions, async (err, db) => {
         if (err) {
             return res.status(500).json({ error: 'Erro ao conectar ao banco de dados', detalhes: err.message });
         }
 
-        db.query(selectCupons, (err, result) => {
+        db.query(selectCupons, async (err, result) => {
             if (err) {
                 db.detach();
                 return res.status(500).json({ error: 'Erro ao executar a query', detalhes: err.message });
             }
 
-            const promises = result.map(row => {
-                const dados = {
-                    ID: row.EMPRESA_ID,
-                    NOME: row.NOME,      
-                    CNPJ_CPF: row.CNPJ_CPF,
-                    CUPONS_ACUMULADOS: row.TOTAL_CUPONS
-                };
-                return firestore.collection('CLIENTES').add(dados);
-            });
+            try {
+                const promises = result.map(async row => {
+                    const dados = {
+                        ID: row.EMPRESA_ID,
+                        NOME: row.NOME,      
+                        CNPJ_CPF: row.CNPJ_CPF,
+                        CUPONS_ACUMULADOS: row.TOTAL_CUPONS,
+                        lastUpdated: admin.firestore.FieldValue.serverTimestamp()
+                    };
 
-            Promise.all(promises)
-                .then(() => {
-                    res.status(200).json({ message: 'Dados enviados ao Firestore com sucesso!' });
-                })
-                .catch(error => {
-                    res.status(500).json({ error: 'Erro ao enviar dados ao Firestore', detalhes: error.message });
-                })
-                .finally(() => {
-                    db.detach();
+                    const clienteRef = firestore.collection('CLIENTES').doc(row.CNPJ_CPF);
+
+                    const doc = await clienteRef.get();
+
+                    if (doc.exists) {
+                        // Atualizar o cliente existente
+                        await clienteRef.update(dados);
+                    } else {
+                        // Criar um novo cliente
+                        await clienteRef.set(dados);
+                    }
                 });
+
+                await Promise.all(promises);
+                res.status(200).json({ message: 'Dados enviados ao Firestore com sucesso!' });
+            } catch (error) {
+                res.status(500).json({ error: 'Erro ao enviar dados ao Firestore', detalhes: error.message });
+            } finally {
+                db.detach();
+            }
         });
     });
 });
