@@ -1,133 +1,104 @@
 import express from 'express';
 import admin from 'firebase-admin';
-import Firebird from 'node-firebird';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const app = express();
 
-const selectCupons = `
-    SELECT 
-        EMPRESA.FANTASIA AS NOME, 
-        EMPRESA.CNPJ_CPF, 
-        EMPRESA.ID AS EMPRESA_ID,
-        COUNT(PEDIDO.ID) AS TOTAL_CUPONS
-    FROM 
-        EMPRESA
-    JOIN 
-        PEDIDO ON EMPRESA.ID = PEDIDO.IDEMPRESA
-    WHERE 
-        PEDIDO.NFCE_OFFLINE = 'S'
-    GROUP BY 
-        EMPRESA.FANTASIA, EMPRESA.CNPJ_CPF, EMPRESA.ID;
-`;
-
-// Configuração do Firebird
-const dbOptions = {
-    host: 'localhost',
-    port: 3050,
-    database: 'c:/ettica/exec/dados/dados.fdb',
-    user: 'SYSDBA',
-    password: 'masterkey',
-    charset: 'UTF8'
-};
-
-// Inicializar o Firebase Admin SDK
 admin.initializeApp({
-  credential: admin.credential.cert("serviceAccountKey.json")
+    credential: admin.credential.cert("serviceAccountKey.json")
 });
 
-const firestore = admin.firestore(); // Definição da variável firestore
+const firestore = admin.firestore();
 
-// Usar JSON no corpo das requisições
-app.use(express.json());
+// Serve arquivos estáticos da pasta 'public'
+app.use(express.static(join(__dirname, 'public')));
 
-// GET http://api.clientes-contigencia.com/info/firebase para recuperar dados do Firestore
-app.get('/dados/firebase', (req, res) => {
-    console.log('GET dados');
-    firestore.collection('CLIENTES')
-        .get()
-        .then(snapshot => {
-            const dados = snapshot.docs.map(doc => ({
-                ...doc.data(),
-                uid: doc.id
-            }));
-            res.json(dados);
-        })
-        .catch(error => {
-            res.status(500).json({ error: 'Erro ao recuperar dados do Firestore', detalhes: error.message });
-        });
-});
+app.get('/cliente', async (req, res) => {
+    const cnpjQuery = req.query.cnpj;
+    const nomeQuery = req.query.nome;
+    let dados;
 
-// GET http://api.clientes-contigencia.com/info/firebird para recuperar dados do Firebird
-app.get('/dados/firebird', (req, res) => {
-    Firebird.attach(dbOptions, (err, db) => {
-        if (err) {
-            return res.status(500).json({ error: 'Erro ao conectar ao banco de dados', detalhes: err.message });
-        }
+    if (cnpjQuery) {
+        // Filtra os dados pelo CNPJ parcialmente
+        dados = (await firestore.collection('CLIENTES')
+            .where('CNPJ_CPF', '>=', cnpjQuery)
+            .where('CNPJ_CPF', '<=', cnpjQuery + '\uf8ff')  // \uf8ff é o caractere mais alto no Unicode
+            .get()).docs.map(doc => ({
+            ...doc.data(),
+            uid: doc.id
+        }));
+    } else if (nomeQuery) {
+        // Filtra os dados pelo nome parcialmente
+        dados = (await firestore.collection('CLIENTES')
+            .where('NOME', '>=', nomeQuery)
+            .where('NOME', '<=', nomeQuery + '\uf8ff')
+            .get()).docs.map(doc => ({
+            ...doc.data(),
+            uid: doc.id
+        }));
+    } else {
+        // Obtém todos os dados se nenhum CNPJ ou nome for pesquisado
+        dados = (await firestore.collection('CLIENTES').get()).docs.map(doc => ({
+            ...doc.data(),
+            uid: doc.id
+        }));
+    }
 
-        db.query(selectCupons, (err, result) => {
-            if (err) {
-                db.detach();
-                return res.status(500).json({ error: 'Erro ao executar a query', detalhes: err.message });
-            }
+    const data = dados.reduce((acc, doc) => acc + `
+    <tr>
+        <td>${doc.ID}</td>
+        <td>${doc.NOME}</td>
+        <td>${doc.CNPJ_CPF}</td>
+        <td>${doc.CUPONS_ACUMULADOS}</td>
+        <td>${new Date(doc.lastUpdated.seconds * 1000).toLocaleDateString()}</td>
+        <td>${new Date(doc.lastUpdated.seconds * 1000).toLocaleTimeString()}</td>
+    </tr>`, '');
 
-            const dados = result.map(row => ({
-                ID: row.EMPRESA_ID,
-                NOME: row.NOME,      
-                CNPJ_CPF: row.CNPJ_CPF,
-                CUPONS_ACUMULADOS: row.TOTAL_CUPONS
-            }));
-
-            res.json(dados);
-            db.detach();
-        });
-    });
-});
-
-// POST http://api.clientes-contigencia.com/info para enviar dados do Firebird ao Firestore
-app.post('/dados/enviar-dados', async (req, res) => {
-    Firebird.attach(dbOptions, async (err, db) => {
-        if (err) {
-            return res.status(500).json({ error: 'Erro ao conectar ao banco de dados', detalhes: err.message });
-        }
-
-        db.query(selectCupons, async (err, result) => {
-            if (err) {
-                db.detach();
-                return res.status(500).json({ error: 'Erro ao executar a query', detalhes: err.message });
-            }
-
-            try {
-                const promises = result.map(async row => {
-                    const dados = {
-                        ID: row.EMPRESA_ID,
-                        NOME: row.NOME,      
-                        CNPJ_CPF: row.CNPJ_CPF,
-                        CUPONS_ACUMULADOS: row.TOTAL_CUPONS,
-                        lastUpdated: admin.firestore.FieldValue.serverTimestamp()
-                    };
-
-                    const clienteRef = firestore.collection('CLIENTES').doc(row.CNPJ_CPF);
-
-                    const doc = await clienteRef.get();
-
-                    if (doc.exists) {
-                        // Atualizar o cliente existente
-                        await clienteRef.update(dados);
-                    } else {
-                        // Criar um novo cliente
-                        await clienteRef.set(dados);
-                    }
-                });
-
-                await Promise.all(promises);
-                res.status(200).json({ message: 'Dados enviados ao Firestore com sucesso!' });
-            } catch (error) {
-                res.status(500).json({ error: 'Erro ao enviar dados ao Firestore', detalhes: error.message });
-            } finally {
-                db.detach();
-            }
-        });
-    });
+    const response = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pesquisa por CNPJ ou Nome</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div id="label">
+            <form action="/cliente" method="get">
+                <label for="cnpj">Pesquisar por CNPJ:</label>
+                <input type="text" id="cnpj" name="cnpj" placeholder="Digite o CNPJ">
+                <br>
+                <label for="nome">Pesquisar por Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o Nome">
+                <br>
+                <button type="submit">Pesquisar</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>CNPJ</th>
+                        <th>Cupons</th>
+                        <th>Data Última atualização</th>
+                        <th>Hora atualização</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${data}
+                </tbody>             
+            </table>
+        </div>
+    </body>
+    </html>
+    `;
+    
+    res.send(response);
 });
 
 app.listen(3000, () => console.log('API rest foi iniciada em http://localhost:3000'));
