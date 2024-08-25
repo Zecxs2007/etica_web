@@ -1,3 +1,4 @@
+/* Estilo geral */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -55,6 +56,7 @@ form button:hover {
     background-color: #218838;
 }
 
+/* Estilo da tabela */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -70,6 +72,13 @@ table th, table td {
     padding: 12px 15px;
     border: 1px solid #ddd;
     text-align: left;
+    cursor: pointer; /* Cursor de ponteiro para indicar que o título é clicável */
+    transition: background-color 0.3s ease; /* Suavização do hover */
+}
+
+/* Hover nos títulos das colunas */
+table th:hover {
+    background-color: #0056b3; /* Cor mais escura no hover */
 }
 
 table tr:nth-child(even) {

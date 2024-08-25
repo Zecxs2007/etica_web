@@ -26,7 +26,7 @@ app.get('/cliente', async (req, res) => {
         // Filtra os dados pelo CNPJ parcialmente
         dados = (await firestore.collection('CLIENTES')
             .where('CNPJ_CPF', '>=', cnpjQuery)
-            .where('CNPJ_CPF', '<=', cnpjQuery + '\uf8ff')  // \uf8ff é o caractere mais alto no Unicode
+            .where('CNPJ_CPF', '<=', cnpjQuery + '\uf8ff')
             .get()).docs.map(doc => ({
             ...doc.data(),
             uid: doc.id
@@ -48,15 +48,7 @@ app.get('/cliente', async (req, res) => {
         }));
     }
 
-    const data = dados.reduce((acc, doc) => acc + `
-    <tr>
-        <td>${doc.ID}</td>
-        <td>${doc.NOME}</td>
-        <td>${doc.CNPJ_CPF}</td>
-        <td>${doc.CUPONS_ACUMULADOS}</td>
-        <td>${new Date(doc.lastUpdated.seconds * 1000).toLocaleDateString()}</td>
-        <td>${new Date(doc.lastUpdated.seconds * 1000).toLocaleTimeString()}</td>
-    </tr>`, '');
+    const data = JSON.stringify(dados);
 
     const response = `
     <!DOCTYPE html>
@@ -66,6 +58,55 @@ app.get('/cliente', async (req, res) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pesquisa por CNPJ ou Nome</title>
         <link rel="stylesheet" href="/style.css">
+        <script>
+            let data = ${data};
+            let sortDirection = {};
+
+            function sortTable(column, type) {
+                if (!sortDirection[column]) {
+                    sortDirection[column] = 'asc';
+                } else {
+                    sortDirection[column] = sortDirection[column] === 'asc' ? 'desc' : 'asc';
+                }
+
+                data.sort((a, b) => {
+                    let valA = a[column];
+                    let valB = b[column];
+
+                    if (type === 'number') {
+                        valA = Number(valA) || 0;
+                        valB = Number(valB) || 0;
+                    } else if (type === 'date') {
+                        valA = new Date(valA.seconds * 1000);
+                        valB = new Date(valB.seconds * 1000);
+                    } else {
+                        valA = valA.toString().toLowerCase();
+                        valB = valB.toString().toLowerCase();
+                    }
+
+                    if (valA < valB) return sortDirection[column] === 'asc' ? -1 : 1;
+                    if (valA > valB) return sortDirection[column] === 'asc' ? 1 : -1;
+                    return 0;
+                });
+
+                renderTable();
+            }
+
+            function renderTable() {
+                const tbody = document.querySelector('tbody');
+                tbody.innerHTML = data.map(doc => \`
+                    <tr>
+                        <td>\${doc.ID}</td>
+                        <td>\${doc.NOME}</td>
+                        <td>\${doc.CNPJ_CPF}</td>
+                        <td>\${doc.CUPONS_ACUMULADOS}</td>
+                        <td>\${new Date(doc.lastUpdated.seconds * 1000).toLocaleDateString()}</td>
+                        <td>\${new Date(doc.lastUpdated.seconds * 1000).toLocaleTimeString()}</td>
+                    </tr>\`).join('');
+            }
+
+            window.onload = renderTable;
+        </script>
     </head>
     <body>
         <div id="label">
@@ -81,17 +122,16 @@ app.get('/cliente', async (req, res) => {
             <table>
                 <thead>
                     <tr>
-                        <th>Id</th>
-                        <th>Nome</th>
-                        <th>CNPJ</th>
-                        <th>Cupons</th>
-                        <th>Data Última atualização</th>
-                        <th>Hora atualização</th>
+                        <th onclick="sortTable('ID', 'number')">Id</th>
+                        <th onclick="sortTable('NOME', 'string')">Nome</th>
+                        <th onclick="sortTable('CNPJ_CPF', 'string')">CNPJ</th>
+                        <th onclick="sortTable('CUPONS_ACUMULADOS', 'number')">Cupons</th>
+                        <th onclick="sortTable('lastUpdated', 'date')">Data Última atualização</th>
+                        <th onclick="sortTable('lastUpdated', 'date')">Hora atualização</th>
                     </tr>
                 </thead>
                 <tbody>
-                    ${data}
-                </tbody>             
+                </tbody>
             </table>
         </div>
     </body>
