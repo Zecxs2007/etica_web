@@ -89,7 +89,7 @@ server.listen((3001), () => {
             });
         });
 
-    }, 3600000);
+    }, 2000);
         
         console.log("Server is Running");
     })

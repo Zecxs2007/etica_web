@@ -1,90 +1,123 @@
-/* Estilo geral */
+/* style.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
     margin: 0;
-    padding: 20px;
-    color: #333;
-}
-
-h1 {
-    text-align: center;
-    color: #444;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 #label {
-    max-width: 900px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
+    max-width: 90%;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-form label {
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
-}
-
-form input {
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-}
-
-form button {
-    padding: 10px;
-    border-radius: 4px;
-    border: none;
-    background-color: #28a745;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-form button:hover {
-    background-color: #218838;
-}
-
-/* Estilo da tabela */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    font-size: 16px;
 }
 
-table thead {
+thead {
     background-color: #007bff;
-    color: white;
+    color: #ffffff;
 }
 
-table th, table td {
+th, td {
     padding: 12px 15px;
-    border: 1px solid #ddd;
     text-align: left;
-    cursor: pointer; /* Cursor de ponteiro para indicar que o título é clicável */
-    transition: background-color 0.3s ease; /* Suavização do hover */
+    border-bottom: 1px solid #ddd;
 }
 
-/* Hover nos títulos das colunas */
-table th:hover {
-    background-color: #0056b3; /* Cor mais escura no hover */
+th {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
 
-table tr:hover {
-    background-color: #e9ecef;
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    font-size: 14px;
+    color: #333;
+}
+
+th, td:first-child {
+    border-left: 2px solid #007bff;
+}
+
+th, td:last-child {
+    border-right: 2px solid #007bff;
+}
+
+thead th:first-child, tbody td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+thead th:last-child, tbody td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Estilos para o formulário de pesquisa */
+#search-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#search-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#search-form label {
+    margin-right: 10px;
+}
+
+#search-column, #search-query {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-column {
+    width: 120px;
+}
+
+#search-query {
+    flex: 1;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
 }
