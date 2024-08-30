@@ -78,6 +78,79 @@ function verificarTema() {
   }
 }
 
+let sortDirection = {}; // Para armazenar a direção de ordenação de cada coluna
+
+function ordenarDados(coluna) {
+  const rowsArray = Array.from(tableBody.getElementsByTagName('tr'));
+
+  // Determina a direção da ordenação
+  if (!sortDirection[coluna]) {
+    sortDirection[coluna] = 'asc'; // Ordena ascendente inicialmente
+  } else {
+    sortDirection[coluna] = sortDirection[coluna] === 'asc' ? 'desc' : 'asc'; // Alterna entre asc e desc
+  }
+
+  rowsArray.sort((rowA, rowB) => {
+    const cellA = rowA.querySelector(`td:nth-child(${getColumnIndex(coluna)})`).innerText.toLowerCase();
+    const cellB = rowB.querySelector(`td:nth-child(${getColumnIndex(coluna)})`).innerText.toLowerCase();
+
+    if (cellA < cellB) {
+      return sortDirection[coluna] === 'asc' ? -1 : 1;
+    }
+    if (cellA > cellB) {
+      return sortDirection[coluna] === 'asc' ? 1 : -1;
+    }
+    return 0;
+  });
+
+  // Reinsere as linhas ordenadas na tabela
+  rowsArray.forEach(row => tableBody.appendChild(row));
+
+  // Atualiza as setas de ordenação
+  atualizarSetas(coluna, sortDirection[coluna]);
+}
+
+// Função auxiliar para obter o índice da coluna com base no nome da coluna
+function getColumnIndex(coluna) {
+  const columns = {
+    NOME: 1,
+    CNPJ_CPF: 2,
+    CUPONS: 3,
+    DIA: 4,
+    HORA: 5
+  };
+  return columns[coluna];
+}
+
+// Função para atualizar as setas de ordenação
+function atualizarSetas(coluna, direction) {
+  document.querySelectorAll('th').forEach(th => {
+    const span = th.querySelector('.sort-indicator');
+    th.removeAttribute('data-order'); // Remove a direção de ordenação antiga
+    span.innerHTML = ''; // Limpa o ícone antigo
+  });
+
+  const activeTh = document.querySelector(`th[data-column="${coluna}"]`);
+  activeTh.setAttribute('data-order', direction);
+}
+
+// Adiciona eventos de clique aos cabeçalhos para ordenar a tabela
+document.querySelectorAll('th[data-column]').forEach(th => {
+  th.addEventListener('click', () => {
+    const coluna = th.getAttribute('data-column');
+    ordenarDados(coluna);
+  });
+});
+
+// Restante do seu código...
+
+document.addEventListener('DOMContentLoaded', () => {
+  verificarTema();
+  carregarDados(); // Carrega os dados ao inicializar a página
+  setInterval(carregarDados, 600000); // Atualiza os dados a cada 10 minutos
+});
+
+
 // Salva a configuração do tema no localStorage quando a página é carregada
 document.addEventListener('DOMContentLoaded', () => {
   verificarTema();
