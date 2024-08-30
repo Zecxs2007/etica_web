@@ -12,6 +12,13 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
+firebase.auth().onAuthStateChanged((user) => {
+  if (!user) {
+      // Se o usuário não está autenticado, redireciona para a página de login
+      window.location.href = "./LOGIN/login.html";
+  }
+});
+
 const tableBody = document.getElementById("table-body");
 const toggleThemeButton = document.getElementById("toggle-theme");
 
@@ -142,18 +149,9 @@ document.querySelectorAll('th[data-column]').forEach(th => {
   });
 });
 
-// Restante do seu código...
-
+// Carrega os dados e aplica o tema ao inicializar a página
 document.addEventListener('DOMContentLoaded', () => {
   verificarTema();
   carregarDados(); // Carrega os dados ao inicializar a página
-  setInterval(carregarDados, 600000); // Atualiza os dados a cada 10 minutos
-});
-
-
-// Salva a configuração do tema no localStorage quando a página é carregada
-document.addEventListener('DOMContentLoaded', () => {
-  verificarTema();
-  carregarDados(); // Carrega os dados ao inicializar a página
-  setInterval(carregarDados, 600000); // Atualiza os dados a cada 10 minutos
+  setInterval(carregarDados, 10000); // Atualiza os dados a cada 10 segundos
 });
