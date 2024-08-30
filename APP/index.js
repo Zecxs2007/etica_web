@@ -1,6 +1,11 @@
 import http from 'http';
 import admin from 'firebase-admin';
 import Firebird from 'node-firebird';
+import ini from 'ini';
+import fs from 'fs';
+
+// Leitura do arquivo .ini
+const config = ini.parse(fs.readFileSync('./config.ini', 'utf-8'));
 
 // Configuração da consulta
 const selectCupons = `
@@ -19,14 +24,14 @@ const selectCupons = `
         EMPRESA.FANTASIA, EMPRESA.CNPJ_CPF, EMPRESA.ID;
 `;
 
-// Configuração do Firebird
+// Configuração do Firebird utilizando o .ini
 const dbOptions = {
-    host: 'localhost',
-    port: 3050,
-    database: 'c:/ettica/exec/dados/dados.fdb',
-    user: 'SYSDBA',
-    password: 'masterkey',
-    charset: 'UTF8'
+    host: config.database.host,
+    port: config.database.port,
+    database: config.database.database,
+    user: config.database.user,
+    password: config.database.password,
+    charset: config.database.charset
 };
 
 // Inicializa o Firebase
