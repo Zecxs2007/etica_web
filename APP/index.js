@@ -24,6 +24,7 @@ const selectCupons = `
         EMPRESA.FANTASIA, EMPRESA.CNPJ_CPF, EMPRESA.ID;
 `;
 
+
 // Configuração do Firebird utilizando o .ini
 const dbOptions = {
     host: config.database.host,
@@ -31,8 +32,11 @@ const dbOptions = {
     database: config.database.database,
     user: config.database.user,
     password: config.database.password,
-    charset: config.database.charset
+    charset: config.database.charset,
 };
+
+let time;
+time = config.database.time ? config.database.time : time = 60000;
 
 // Inicializa o Firebase
 admin.initializeApp({
@@ -46,6 +50,8 @@ const server = http.createServer((req, res) => {
     res.write("Pong");
     res.end();
 });
+
+
 
 // Ouvindo na porta 3001
 server.listen(3001, () => {
@@ -95,5 +101,7 @@ server.listen(3001, () => {
                 }
             });
         });
-    }, 2000);
+    }, time);
 });
+
+console.log(time);
