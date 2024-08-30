@@ -9,7 +9,7 @@ firebase-debug.*.log*
 
 # Firebase cache
 .firebase/
-./APP/serviceAccountKey.json
+*.serviceAccountKey.json
 
 # Firebase config
 
