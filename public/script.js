@@ -12,7 +12,6 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
-
 const tableBody = document.getElementById("table-body");
 const toggleThemeButton = document.getElementById("toggle-theme");
 
@@ -92,16 +91,26 @@ function ordenarDados(coluna) {
   }
 
   rowsArray.sort((rowA, rowB) => {
-    const cellA = rowA.querySelector(`td:nth-child(${getColumnIndex(coluna)})`).innerText.toLowerCase();
-    const cellB = rowB.querySelector(`td:nth-child(${getColumnIndex(coluna)})`).innerText.toLowerCase();
+    const cellA = rowA.querySelector(`td:nth-child(${getColumnIndex(coluna)})`).innerText.trim();
+    const cellB = rowB.querySelector(`td:nth-child(${getColumnIndex(coluna)})`).innerText.trim();
 
-    if (cellA < cellB) {
-      return sortDirection[coluna] === 'asc' ? -1 : 1;
+    let comparison = 0;
+
+    if (coluna === 'CUPONS') {
+      // Se for a coluna de cupons, converta para número
+      const numA = parseInt(cellA.replace(/\D/g, ''), 10); // Remove caracteres não numéricos e converte
+      const numB = parseInt(cellB.replace(/\D/g, ''), 10); // Remove caracteres não numéricos e converte
+      comparison = numA - numB;
+    } else {
+      // Comparação de strings para outras colunas
+      if (cellA < cellB) {
+        comparison = -1;
+      } else if (cellA > cellB) {
+        comparison = 1;
+      }
     }
-    if (cellA > cellB) {
-      return sortDirection[coluna] === 'asc' ? 1 : -1;
-    }
-    return 0;
+
+    return sortDirection[coluna] === 'asc' ? comparison : -comparison;
   });
 
   // Reinsere as linhas ordenadas na tabela
