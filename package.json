@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "express": "^4.19.2",
-    "firebase": "^10.12.4",
-    "firebase-admin": "^12.4.0",
-    "moment": "^2.30.1"
-  },
-  "type": "module"
-}

@@ -6,6 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "./index.js",
+  "assets": [
+    "serviceAccountKey.json"
+  ],
+  "pkg": {
+    "targets": [
+      "node18-linux-x64",
+      "node18-win-x64"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

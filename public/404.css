@@ -1,0 +1,82 @@
+/* 404.css */
+
+body {
+    background: #f0f4f8; /* Fundo claro e suave */
+    color: #333; /* Texto escuro para boa legibilidade */
+    font-family: 'Roboto', sans-serif; /* Fonte limpa e moderna */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#message {
+    background: #ffffff;
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#message h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #039be5; /* Azul para o código de erro */
+    margin: 0;
+}
+
+#message h2 {
+    font-size: 24px;
+    color: #0277bd; /* Azul mais escuro para o subtítulo */
+    margin: 16px 0;
+}
+
+#message p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 16px 0;
+}
+
+#message a {
+    display: inline-block;
+    background: #039be5; /* Azul vibrante para o botão */
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#message a:hover {
+    background: #0277bd; /* Azul mais escuro para o hover */
+}
+
+@media (max-width: 600px) {
+    #message {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    #message h1 {
+        font-size: 36px;
+    }
+
+    #message h2 {
+        font-size: 20px;
+    }
+
+    #message p {
+        font-size: 14px;
+    }
+
+    #message a {
+        padding: 10px 20px;
+    }
+}

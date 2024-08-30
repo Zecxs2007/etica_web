@@ -2,6 +2,7 @@ import http from 'http';
 import admin from 'firebase-admin';
 import Firebird from 'node-firebird';
 
+// Configuração da consulta
 const selectCupons = `
     SELECT 
         EMPRESA.FANTASIA AS NOME, 
@@ -28,34 +29,38 @@ const dbOptions = {
     charset: 'UTF8'
 };
 
+// Inicializa o Firebase
 admin.initializeApp({
     credential: admin.credential.cert("serviceAccountKey.json")
-  });
-  
-  const firestore = admin.firestore(); // Definição da variável firestore
+});
 
-// Creating server 
+const firestore = admin.firestore(); 
+
+// Criação do servidor
 const server = http.createServer((req, res) => {
-    // Sending the response
-    res.write("Pong")
+    res.write("Pong");
     res.end();
-})
+});
 
-// Server listening to port 3000
-server.listen((3001), () => {
+// Ouvindo na porta 3001
+server.listen(3001, () => {
+    console.log("Server is Running");
+
+    // Atualização de dados a cada 2 segundos
     setInterval(() => {  
-        
         Firebird.attach(dbOptions, async (err, db) => {
             if (err) {
-                console.log({ error: 'Erro ao conectar ao banco de dados', detalhes: err.message });
+                console.error('Erro ao conectar ao banco de dados:', err.message);
+                return;
             }
-    
+
             db.query(selectCupons, async (err, result) => {
                 if (err) {
+                    console.error('Erro ao executar a query:', err.message);
                     db.detach();
-                    console.log({ error: 'Erro ao executar a query', detalhes: err.message });
+                    return;
                 }
-    
+
                 try {
                     const promises = result.map(async row => {
                         const dados = {
@@ -65,31 +70,25 @@ server.listen((3001), () => {
                             CUPONS_ACUMULADOS: row.TOTAL_CUPONS,
                             lastUpdated: admin.firestore.FieldValue.serverTimestamp()
                         };
-    
+
                         const clienteRef = firestore.collection('CLIENTES').doc(row.CNPJ_CPF);
-    
                         const doc = await clienteRef.get();
-    
+
                         if (doc.exists) {
-                            // Atualizar o cliente existente
                             await clienteRef.update(dados);
                         } else {
-                            // Criar um novo cliente
                             await clienteRef.set(dados);
                         }
                     });
-    
+
                     await Promise.all(promises);
-                    console.log({ message: 'Ping' });
+                    console.log('Dados atualizados com sucesso');
                 } catch (error) {
-                    console.log({ error: 'Erro ao enviar dados ao Firestore', detalhes: error.message });
+                    console.error('Erro ao enviar dados ao Firestore:', error.message);
                 } finally {
                     db.detach();
                 }
             });
         });
-
     }, 2000);
-        
-        console.log("Server is Running");
-    })
+});
