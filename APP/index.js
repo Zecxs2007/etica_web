@@ -19,6 +19,10 @@ const selectCupons = `
     JOIN 
         PEDIDO ON EMPRESA.ID = PEDIDO.IDEMPRESA
     WHERE 
+        PEDIDO.CANCELADO = 'N'
+    AND
+        PEDIDO.CONFIRMADA = 'S'
+    AND
         PEDIDO.NFCE_OFFLINE = 'S'
     GROUP BY 
         EMPRESA.FANTASIA, EMPRESA.CNPJ_CPF, EMPRESA.ID;
