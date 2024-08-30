@@ -12,12 +12,6 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
-firebase.auth().onAuthStateChanged((user) => {
-  if (!user) {
-      // Se o usuário não está autenticado, redireciona para a página de login
-      window.location.href = "./LOGIN/login.html";
-  }
-});
 
 const tableBody = document.getElementById("table-body");
 const toggleThemeButton = document.getElementById("toggle-theme");
