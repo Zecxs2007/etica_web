@@ -1,7 +1,7 @@
 function logar(event) {
     event.preventDefault(); // Previne a submissão do formulário
 
-    let nome = document.getElementById('nome').value; // Corrigi o ID aqui
+    let nome = document.getElementById('nome').value;
     let senha = document.getElementById('senha').value;
 
     if (nome === 'admin' && senha === '2024etica2024') {
