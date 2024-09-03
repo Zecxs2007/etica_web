@@ -6,8 +6,7 @@ function logar(event) {
 
     if (nome === 'admin' && senha === '2024etica2024') {
         alert('Logado com sucesso!');
-        // Redirecione o usuário para outra página, se desejar
-        // window.location.href = "pagina_protegida.html";
+        window.location.href = "lista.html"
     } else {
         alert('Nome de usuário ou senha incorretos. Tente novamente.');
     }
