@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clientes contingência</title>
+  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore-compat.js"></script>
+  <link rel="stylesheet" href="lista.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <button id="toggle-theme" title="Alterar Tema">
+    <i class="fas fa-sun"></i> <!-- ícone padrão -->
+  </button>
+  
+  <div id="search-container">
+    <form id="search-form">
+      <label for="search-column">Coluna:</label>
+      <select id="search-column" name="searchColumn">
+        <option value="NOME">Nome</option>
+        <option value="CNPJ_CPF">CNPJ</option>
+      </select>
+      <label for="search-query">Buscar:</label>
+      <input type="text" id="search-query" name="searchQuery">
+      <button type="submit">Pesquisar</button>
+    </form>
+  </div>
+  
+  <div id="label">
+    <table>
+      <thead>
+        <thead>
+          <thead>
+            <tr>
+              <th data-column="NOME">Nome <span class="sort-indicator"></span></th>
+              <th data-column="CNPJ_CPF">CNPJ <span class="sort-indicator"></span></th>
+              <th data-column="CUPONS">Cupons <span class="sort-indicator"></span></th>
+              <th data-column="DIA">Data Última Atualização <span class="sort-indicator"></span></th>
+              <th data-column="HORA">Hora Atualização <span class="sort-indicator"></span></th>
+            </tr>
+          </thead>
+        </thead>
+      </thead>
+      <tbody id="table-body">
+        <!-- As linhas de dados serão inseridas aqui -->
+      </tbody>
+    </table>
+  </div>
+
+  <script type="module" src="lista.js"></script>
+</body>
+</html>
