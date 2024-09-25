@@ -21,7 +21,7 @@ const options = {
 };
 
 // Senha de autenticação
-const API_SECRET_PASSWORD = '123';
+const API_SECRET_PASSWORD = 'tst';
 
 app.use(express.json()); // Para poder receber JSON no body da requisição
 
@@ -29,13 +29,14 @@ app.use(express.json()); // Para poder receber JSON no body da requisição
 function dados(req, res) {
     const { CNPJ, Nome, QuantidadeCupons, DataHora, senha } = req.body;
 
+    console.log(req.body)
     // Validação da senha
     if (senha !== API_SECRET_PASSWORD) {
         return res.status(403).json({ error: 'Acesso negado: senha inválida' });
     }
 
     // Validação dos campos obrigatórios
-    if (!CNPJ || !Nome || !QuantidadeCupons || !DataHora) {
+    if (!CNPJ || !Nome || !DataHora) {
         return res.status(400).json({ error: 'Todos os campos são obrigatórios!' });
     }
 
