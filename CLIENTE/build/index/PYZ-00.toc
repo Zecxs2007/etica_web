@@ -1,4 +1,4 @@
-('D:\\CLIENTES_CONTINGENCIA\\CLIENTE\\build\\index\\PYZ-00.pyz',
+('D:\\CLIENTES_CONTINGENCIA\\cliente\\build\\index\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\__future__.py',

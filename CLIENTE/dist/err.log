@@ -1,0 +1,17 @@
+2024-10-04 15:00:01,933 - ERROR - Erro ao conectar ao banco de dados: ('Error while connecting to database:\n- SQLCODE: -902\n- I/O error during "CreateFile (open)" operation for file "C:\\ETTICA\\EXEC\\DADOS\\TESTE.FDB"\n- Error while trying to open file\n- O sistema não pode encontrar o arquivo especificado. ', -902, 335544344)
+2024-10-04 15:00:01,933 - INFO - Aguardando 3600 segundos para a próxima execução...
+2024-10-04 15:00:44,382 - INFO - Conexão com o Firebird estabelecida.
+2024-10-04 15:00:44,387 - INFO - 1 registros encontrados.
+2024-10-04 15:00:44,430 - INFO - Dados enviados com sucesso.
+2024-10-04 15:00:44,430 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-04 15:00:44,434 - INFO - Aguardando 3600 segundos para a próxima execução...
+2024-10-04 15:04:08,623 - INFO - Conexão com o Firebird estabelecida.
+2024-10-04 15:04:08,630 - INFO - 1 registros encontrados.
+2024-10-04 15:04:08,663 - INFO - Dados enviados com sucesso.
+2024-10-04 15:04:08,664 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-04 15:04:08,668 - INFO - Aguardando 3600 segundos para a próxima execução...
+2024-10-04 15:04:32,974 - INFO - Conexão com o Firebird estabelecida.
+2024-10-04 15:04:32,979 - INFO - 1 registros encontrados.
+2024-10-04 15:04:33,035 - INFO - Dados enviados com sucesso.
+2024-10-04 15:04:33,035 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-04 15:04:33,038 - INFO - Aguardando 3600 segundos para a próxima execução...

@@ -3,13 +3,20 @@ import requests
 import json
 from datetime import datetime
 import configparser
-import time  # Import time for the sleep function
+import time
+import logging
 
-# Conectar ao banco de dados Firebird
+#pyinstaller --noconsole --icon=icon.ico --onefile index.py
+#comando para copilar
+
+# Configura o logging para gravar as mensagens em um arquivo .log
+logging.basicConfig(filename='err.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Cria instância para ler o arquivo config.ini
 config = configparser.ConfigParser()
-config.read('config.ini')  # Ensure correct path to config.ini
-senha = 'tst'
+config.read('config.ini')
 
+# Busca os dados para a conexão do firebird
 def conectar_firebird():
     try:
         con = fdb.connect(
@@ -18,33 +25,35 @@ def conectar_firebird():
             password=config['database']['password'],
             charset='UTF8'
         )
+        logging.info("Conexão com o Firebird estabelecida.")
         return con
     except fdb.DatabaseError as e:
-        print(f"Erro ao conectar ao banco de dados: {e}")
+        logging.error(f"Erro ao conectar ao banco de dados: {e}")
         return None
 
 # Buscar a quantidade de cupons acumulados por cliente
 def buscar_cupons(con, senha):
     try:
-        cur = con.cursor()  # Manually handle cursor
+        cur = con.cursor()
         query = """
             SELECT
             EMPRESA.CNPJ_CPF,
             EMPRESA.FANTASIA,
             COUNT(PEDIDO.ID) AS QUANTIDADECUPONS
-        FROM
+            FROM
             EMPRESA
-        LEFT JOIN
+            LEFT JOIN
             PEDIDO ON EMPRESA.ID = PEDIDO.IDEMPRESA
             AND PEDIDO.NFCE_OFFLINE = 'S'
             AND PEDIDO.CANCELADO = 'N'
-        GROUP BY
+            GROUP BY
             EMPRESA.CNPJ_CPF, EMPRESA.FANTASIA
         """
         cur.execute(query)
         resultados = cur.fetchall()
-        cur.close()  # Manually close cursor
+        cur.close()
 
+        # Envia os dados em forma de json
         dados = []
         for row in resultados:
             dados.append({
@@ -54,31 +63,32 @@ def buscar_cupons(con, senha):
                 "DataHora": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                 "senha": senha
             })
-        print(dados)
+
+        logging.info(f"{len(dados)} registros encontrados.")
         return dados
     except fdb.Error as e:
-        print(f"Erro ao buscar cupons: {e}")
+        logging.error(f"Erro ao buscar cupons: {e}")
         return []
 
 # Enviar dados para a API
 def enviar_dados_api(dados):
-    url = 'http://localhost:7584/dados'  # URL da sua API
+    url = config['database']['url']  # URL da API
     headers = {'Content-Type': 'application/json'}
 
     try:
         response = requests.post(url, headers=headers, data=json.dumps(dados[0]))
         if response.status_code == 200:
-            print("Dados enviados com sucesso!")
-            print(f"Resposta da API: {response.json()}")
+            logging.info("Dados enviados com sucesso.")
+            logging.info(f"Resposta da API: {response.json()}")
         else:
-            print(f"Erro ao enviar dados: {response.status_code} - {response.text}")
+            logging.error(f"Erro ao enviar dados: {response.status_code} - {response.text}")
     except requests.RequestException as e:
-        print(f"Erro ao enviar dados para a API: {e}")
+        logging.error(f"Erro ao enviar dados para a API: {e}")
 
 # Função principal
 def main():
     while True:  # Loop infinito
-        senha = "tst"  # Senha pode ser passada dinamicamente se necessário
+        senha = "trigominas2025"
 
         con = conectar_firebird()
         if con:
@@ -87,14 +97,17 @@ def main():
                 if dados:
                     enviar_dados_api(dados)
             finally:
-                con.close()  # Ensure connection is closed
+                con.close()
 
         tempo = int(config['database']['tempo'])
-        # Pausa o loop por 5 minutos (300 segundos)
-        print(f"Aguardando {tempo} segundos para a próxima execução...")
+        # Pausa o loop pelo tempo definido no config em segundos
+        logging.info(f"Aguardando {tempo} segundos para a próxima execução...")
 
         time.sleep(tempo)
-        
+
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        logging.info("Execução interrompida pelo usuário.")

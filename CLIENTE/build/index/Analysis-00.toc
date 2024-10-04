@@ -1,5 +1,5 @@
-(['D:\\CLIENTES_CONTINGENCIA\\CLIENTE\\index.py'],
- ['D:\\CLIENTES_CONTINGENCIA\\CLIENTE'],
+(['D:\\CLIENTES_CONTINGENCIA\\cliente\\index.py'],
+ ['D:\\CLIENTES_CONTINGENCIA\\cliente'],
  [],
  ['C:\\Users\\usuário '
   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
@@ -124,38 +124,6 @@
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\hashlib.py',
    'PYMODULE'),
-  ('logging',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('pickle',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pickle.py',
-   'PYMODULE'),
-  ('pprint',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pprint.py',
-   'PYMODULE'),
-  ('dataclasses',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\dataclasses.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('struct',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\struct.py',
-   'PYMODULE'),
-  ('threading',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\threading.py',
-   'PYMODULE'),
-  ('_threading_local',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_threading_local.py',
-   'PYMODULE'),
   ('bisect',
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\bisect.py',
@@ -175,6 +143,10 @@
   ('gettext',
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\struct.py',
    'PYMODULE'),
   ('email.charset',
    'C:\\Users\\usuário '
@@ -336,6 +308,14 @@
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\py_compile.py',
    'PYMODULE'),
+  ('threading',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_threading_local.py',
+   'PYMODULE'),
   ('importlib.util',
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\util.py',
@@ -420,10 +400,6 @@
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ast.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_py_abc.py',
-   'PYMODULE'),
   ('subprocess',
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\subprocess.py',
@@ -440,9 +416,33 @@
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\tracemalloc.py',
    'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_py_abc.py',
+   'PYMODULE'),
   ('_colorize',
    'C:\\Users\\usuário '
    'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\usuário '
+   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\logging\\__init__.py',
    'PYMODULE'),
   ('_strptime',
    'C:\\Users\\usuário '
@@ -967,7 +967,7 @@
  [],
  [],
  [('base_library.zip',
-   'D:\\CLIENTES_CONTINGENCIA\\CLIENTE\\build\\index\\base_library.zip',
+   'D:\\CLIENTES_CONTINGENCIA\\cliente\\build\\index\\base_library.zip',
    'DATA'),
   ('certifi\\py.typed',
    'C:\\Users\\usuário '

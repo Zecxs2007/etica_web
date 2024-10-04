@@ -21,7 +21,7 @@ const options = {
 };
 
 // Senha de autenticação
-const API_SECRET_PASSWORD = 'tst';
+const API_SECRET_PASSWORD = 'trigominas2025';
 
 app.use(express.json()); // Para poder receber JSON no body da requisição
 
