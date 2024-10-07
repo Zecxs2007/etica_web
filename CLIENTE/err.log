@@ -1,0 +1,952 @@
+2024-10-07 13:41:52,207 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:41:52,236 - INFO - 1 registros encontrados.
+2024-10-07 13:41:52,537 - INFO - Dados enviados com sucesso.
+2024-10-07 13:41:52,537 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:44:21,223 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:44:21,233 - INFO - 1 registros encontrados.
+2024-10-07 13:44:21,281 - INFO - Dados enviados com sucesso.
+2024-10-07 13:44:21,281 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:44:21,285 - INFO - Aguardando 3600 segundos para a próxima execução...
+2024-10-07 13:45:08,323 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:45:08,329 - INFO - 1 registros encontrados.
+2024-10-07 13:45:08,370 - INFO - Dados enviados com sucesso.
+2024-10-07 13:45:08,370 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:45:08,374 - INFO - Aguardando 3600 segundos para a próxima execução...
+2024-10-07 13:47:11,388 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:47:11,399 - INFO - 1 registros encontrados.
+2024-10-07 13:47:11,452 - INFO - Dados enviados com sucesso.
+2024-10-07 13:47:11,452 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:47:11,455 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:47:16,474 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:47:16,480 - INFO - 1 registros encontrados.
+2024-10-07 13:47:16,529 - INFO - Dados enviados com sucesso.
+2024-10-07 13:47:16,530 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:47:16,533 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:47:21,585 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:47:21,597 - INFO - 1 registros encontrados.
+2024-10-07 13:47:21,645 - INFO - Dados enviados com sucesso.
+2024-10-07 13:47:21,645 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:47:21,648 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:49:41,369 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:49:41,375 - INFO - 1 registros encontrados.
+2024-10-07 13:49:41,422 - INFO - Dados enviados com sucesso.
+2024-10-07 13:49:41,422 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:49:41,425 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:49:46,449 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:49:46,456 - INFO - 1 registros encontrados.
+2024-10-07 13:49:46,511 - INFO - Dados enviados com sucesso.
+2024-10-07 13:49:46,511 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:49:46,514 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:49:51,567 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:49:51,575 - INFO - 1 registros encontrados.
+2024-10-07 13:49:51,606 - INFO - Dados enviados com sucesso.
+2024-10-07 13:49:51,606 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:49:51,610 - INFO - Aguardando 10 segundos para a próxima execução...
+2024-10-07 13:50:01,627 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:50:01,632 - INFO - 1 registros encontrados.
+2024-10-07 13:50:01,664 - INFO - Dados enviados com sucesso.
+2024-10-07 13:50:01,665 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:50:01,668 - INFO - Aguardando 10 segundos para a próxima execução...
+2024-10-07 13:50:11,683 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:50:11,688 - INFO - 1 registros encontrados.
+2024-10-07 13:50:11,736 - INFO - Dados enviados com sucesso.
+2024-10-07 13:50:11,736 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:50:11,739 - INFO - Aguardando 10 segundos para a próxima execução...
+2024-10-07 13:52:59,730 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:52:59,738 - INFO - 1 registros encontrados.
+2024-10-07 13:52:59,802 - INFO - Dados enviados com sucesso.
+2024-10-07 13:52:59,802 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:52:59,806 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:04,858 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:04,875 - INFO - 1 registros encontrados.
+2024-10-07 13:53:04,925 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:04,926 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:04,930 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:10,031 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:10,041 - INFO - 1 registros encontrados.
+2024-10-07 13:53:10,072 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:10,072 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:10,076 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:15,125 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:15,135 - INFO - 1 registros encontrados.
+2024-10-07 13:53:15,166 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:15,166 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:15,169 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:20,217 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:20,226 - INFO - 1 registros encontrados.
+2024-10-07 13:53:20,266 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:20,267 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:20,270 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:25,324 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:25,332 - INFO - 1 registros encontrados.
+2024-10-07 13:53:25,368 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:25,369 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:25,372 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:36,622 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:36,629 - INFO - 1 registros encontrados.
+2024-10-07 13:53:36,692 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:36,692 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:36,695 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:41,752 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:41,759 - INFO - 1 registros encontrados.
+2024-10-07 13:53:41,791 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:41,791 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:41,794 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:46,823 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:46,831 - INFO - 1 registros encontrados.
+2024-10-07 13:53:46,862 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:46,862 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:46,865 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:51,902 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:51,909 - INFO - 1 registros encontrados.
+2024-10-07 13:53:51,951 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:51,951 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:51,954 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:53:56,986 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:53:56,992 - INFO - 1 registros encontrados.
+2024-10-07 13:53:57,034 - INFO - Dados enviados com sucesso.
+2024-10-07 13:53:57,034 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:53:57,039 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:54:02,054 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:54:02,061 - INFO - 1 registros encontrados.
+2024-10-07 13:54:02,110 - INFO - Dados enviados com sucesso.
+2024-10-07 13:54:02,110 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:54:02,113 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:55:36,450 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:55:36,459 - INFO - 1 registros encontrados.
+2024-10-07 13:55:36,515 - INFO - Dados enviados com sucesso.
+2024-10-07 13:55:36,516 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:55:36,520 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:55:41,565 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:55:41,573 - INFO - 1 registros encontrados.
+2024-10-07 13:55:41,615 - INFO - Dados enviados com sucesso.
+2024-10-07 13:55:41,616 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:55:41,619 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:55:46,664 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:55:46,673 - INFO - 1 registros encontrados.
+2024-10-07 13:55:46,707 - INFO - Dados enviados com sucesso.
+2024-10-07 13:55:46,707 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:55:46,710 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:55:51,747 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:55:51,754 - INFO - 1 registros encontrados.
+2024-10-07 13:55:51,799 - INFO - Dados enviados com sucesso.
+2024-10-07 13:55:51,799 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:55:51,802 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:55:56,817 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:55:56,821 - INFO - 1 registros encontrados.
+2024-10-07 13:55:56,865 - INFO - Dados enviados com sucesso.
+2024-10-07 13:55:56,865 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:55:56,869 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:01,885 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:01,889 - INFO - 1 registros encontrados.
+2024-10-07 13:56:01,919 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:01,920 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:01,923 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:06,939 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:06,943 - INFO - 1 registros encontrados.
+2024-10-07 13:56:06,990 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:06,990 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:06,994 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:12,011 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:12,016 - INFO - 1 registros encontrados.
+2024-10-07 13:56:12,058 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:12,059 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:12,062 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:17,078 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:17,086 - INFO - 1 registros encontrados.
+2024-10-07 13:56:17,119 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:17,119 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:17,122 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:22,138 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:22,142 - INFO - 1 registros encontrados.
+2024-10-07 13:56:22,173 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:22,173 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:22,177 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:26,292 - INFO - Execução interrompida pelo usuário.
+2024-10-07 13:56:27,206 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:27,215 - INFO - 1 registros encontrados.
+2024-10-07 13:56:27,266 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:27,266 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:27,270 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:32,289 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:32,294 - INFO - 1 registros encontrados.
+2024-10-07 13:56:32,340 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:32,340 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:32,344 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:37,363 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:37,371 - INFO - 1 registros encontrados.
+2024-10-07 13:56:37,401 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:37,401 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:37,405 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:42,424 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:42,430 - INFO - 1 registros encontrados.
+2024-10-07 13:56:42,482 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:42,482 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:42,486 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:47,501 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:47,506 - INFO - 1 registros encontrados.
+2024-10-07 13:56:47,577 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:47,577 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:47,580 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:52,599 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:52,605 - INFO - 1 registros encontrados.
+2024-10-07 13:56:52,647 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:52,648 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:52,652 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:56:57,674 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:56:57,680 - INFO - 1 registros encontrados.
+2024-10-07 13:56:57,712 - INFO - Dados enviados com sucesso.
+2024-10-07 13:56:57,712 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:56:57,716 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:58:23,430 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:58:23,439 - INFO - 1 registros encontrados.
+2024-10-07 13:58:23,491 - INFO - Dados enviados com sucesso.
+2024-10-07 13:58:23,491 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:58:23,495 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:58:28,513 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:58:28,517 - INFO - 1 registros encontrados.
+2024-10-07 13:58:28,564 - INFO - Dados enviados com sucesso.
+2024-10-07 13:58:28,564 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:58:28,567 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:58:33,587 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:58:33,596 - INFO - 1 registros encontrados.
+2024-10-07 13:58:33,664 - INFO - Dados enviados com sucesso.
+2024-10-07 13:58:33,664 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:58:33,667 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:58:38,684 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:58:38,692 - INFO - 1 registros encontrados.
+2024-10-07 13:58:38,722 - INFO - Dados enviados com sucesso.
+2024-10-07 13:58:38,722 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:58:38,725 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:58:43,743 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:58:43,749 - INFO - 1 registros encontrados.
+2024-10-07 13:58:43,791 - INFO - Dados enviados com sucesso.
+2024-10-07 13:58:43,791 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:58:43,794 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:58:48,809 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:58:48,813 - INFO - 1 registros encontrados.
+2024-10-07 13:58:48,857 - INFO - Dados enviados com sucesso.
+2024-10-07 13:58:48,857 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:58:48,860 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:06,476 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:06,484 - INFO - 1 registros encontrados.
+2024-10-07 13:59:06,539 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:06,539 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:06,543 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:11,558 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:11,563 - INFO - 1 registros encontrados.
+2024-10-07 13:59:11,606 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:11,606 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:11,609 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:16,656 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:16,663 - INFO - 1 registros encontrados.
+2024-10-07 13:59:16,696 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:16,696 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:16,700 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:21,722 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:21,727 - INFO - 1 registros encontrados.
+2024-10-07 13:59:21,772 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:21,772 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:21,775 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:26,804 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:26,812 - INFO - 1 registros encontrados.
+2024-10-07 13:59:26,864 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:26,864 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:26,868 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:31,892 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:31,898 - INFO - 1 registros encontrados.
+2024-10-07 13:59:31,938 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:31,938 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:31,942 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:36,988 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:36,996 - INFO - 1 registros encontrados.
+2024-10-07 13:59:37,026 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:37,026 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:37,029 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:42,077 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:42,084 - INFO - 1 registros encontrados.
+2024-10-07 13:59:42,114 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:42,114 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:42,117 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:47,157 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:47,165 - INFO - 1 registros encontrados.
+2024-10-07 13:59:47,198 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:47,198 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:47,201 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:52,240 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:52,248 - INFO - 1 registros encontrados.
+2024-10-07 13:59:52,305 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:52,305 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:52,311 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 13:59:57,385 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 13:59:57,394 - INFO - 1 registros encontrados.
+2024-10-07 13:59:57,436 - INFO - Dados enviados com sucesso.
+2024-10-07 13:59:57,436 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 13:59:57,440 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:02,476 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:02,483 - INFO - 1 registros encontrados.
+2024-10-07 14:00:02,531 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:02,531 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:02,535 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:07,552 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:07,557 - INFO - 1 registros encontrados.
+2024-10-07 14:00:07,598 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:07,598 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:07,601 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:12,630 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:12,638 - INFO - 1 registros encontrados.
+2024-10-07 14:00:12,747 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:12,747 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:12,750 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:18,395 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:18,404 - INFO - 1 registros encontrados.
+2024-10-07 14:00:18,449 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:18,449 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:18,453 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:23,473 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:23,482 - INFO - 1 registros encontrados.
+2024-10-07 14:00:23,515 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:23,515 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:23,518 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:28,534 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:28,540 - INFO - 1 registros encontrados.
+2024-10-07 14:00:28,588 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:28,589 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:28,592 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:33,632 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:33,636 - INFO - 1 registros encontrados.
+2024-10-07 14:00:33,731 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:33,731 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:33,777 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:38,792 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:38,797 - INFO - 1 registros encontrados.
+2024-10-07 14:00:38,847 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:38,847 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:38,850 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:43,866 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:43,870 - INFO - 1 registros encontrados.
+2024-10-07 14:00:43,903 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:43,903 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:43,906 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:48,922 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:48,927 - INFO - 1 registros encontrados.
+2024-10-07 14:00:48,956 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:48,956 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:48,960 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:54,009 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:54,017 - INFO - 1 registros encontrados.
+2024-10-07 14:00:54,056 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:54,056 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:54,059 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:00:59,102 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:00:59,110 - INFO - 1 registros encontrados.
+2024-10-07 14:00:59,139 - INFO - Dados enviados com sucesso.
+2024-10-07 14:00:59,140 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:00:59,143 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:04,182 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:04,188 - INFO - 1 registros encontrados.
+2024-10-07 14:01:04,223 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:04,223 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:04,226 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:09,267 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:09,275 - INFO - 1 registros encontrados.
+2024-10-07 14:01:09,316 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:09,316 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:09,319 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:14,334 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:14,338 - INFO - 1 registros encontrados.
+2024-10-07 14:01:14,365 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:14,365 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:14,368 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:19,411 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:19,418 - INFO - 1 registros encontrados.
+2024-10-07 14:01:19,463 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:19,463 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:19,466 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:24,484 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:24,490 - INFO - 1 registros encontrados.
+2024-10-07 14:01:24,526 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:24,526 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:24,529 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:29,552 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:29,559 - INFO - 1 registros encontrados.
+2024-10-07 14:01:29,596 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:29,596 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:29,600 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:34,641 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:34,649 - INFO - 1 registros encontrados.
+2024-10-07 14:01:34,689 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:34,689 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:34,693 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:39,736 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:39,743 - INFO - 1 registros encontrados.
+2024-10-07 14:01:39,774 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:39,774 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:39,777 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:44,821 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:44,832 - INFO - 1 registros encontrados.
+2024-10-07 14:01:44,879 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:44,879 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:44,882 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:49,929 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:49,936 - INFO - 1 registros encontrados.
+2024-10-07 14:01:49,966 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:49,966 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:49,970 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:01:55,007 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:01:55,017 - INFO - 1 registros encontrados.
+2024-10-07 14:01:55,064 - INFO - Dados enviados com sucesso.
+2024-10-07 14:01:55,064 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:01:55,067 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:00,084 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:00,090 - INFO - 1 registros encontrados.
+2024-10-07 14:02:00,139 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:00,139 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:00,143 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:05,160 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:05,166 - INFO - 1 registros encontrados.
+2024-10-07 14:02:05,201 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:05,201 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:05,204 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:10,224 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:10,230 - INFO - 1 registros encontrados.
+2024-10-07 14:02:10,271 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:10,271 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:10,274 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:15,288 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:15,292 - INFO - 1 registros encontrados.
+2024-10-07 14:02:15,328 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:15,328 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:15,332 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:20,349 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:20,353 - INFO - 1 registros encontrados.
+2024-10-07 14:02:20,389 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:20,389 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:20,392 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:25,410 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:25,415 - INFO - 1 registros encontrados.
+2024-10-07 14:02:25,463 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:25,463 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:25,467 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:30,484 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:30,490 - INFO - 1 registros encontrados.
+2024-10-07 14:02:30,530 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:30,530 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:30,533 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:35,555 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:35,559 - INFO - 1 registros encontrados.
+2024-10-07 14:02:35,604 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:35,604 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:35,607 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:40,624 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:40,630 - INFO - 1 registros encontrados.
+2024-10-07 14:02:40,659 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:40,659 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:40,663 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:45,678 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:45,685 - INFO - 1 registros encontrados.
+2024-10-07 14:02:45,729 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:45,729 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:45,732 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:50,771 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:50,777 - INFO - 1 registros encontrados.
+2024-10-07 14:02:50,820 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:50,821 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:50,824 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:02:55,856 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:02:55,862 - INFO - 1 registros encontrados.
+2024-10-07 14:02:55,912 - INFO - Dados enviados com sucesso.
+2024-10-07 14:02:55,912 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:02:55,916 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:00,938 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:00,944 - INFO - 1 registros encontrados.
+2024-10-07 14:03:00,975 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:00,975 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:00,978 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:05,995 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:06,000 - INFO - 1 registros encontrados.
+2024-10-07 14:03:06,046 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:06,046 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:06,049 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:11,111 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:11,120 - INFO - 1 registros encontrados.
+2024-10-07 14:03:11,183 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:11,183 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:11,186 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:16,231 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:16,240 - INFO - 1 registros encontrados.
+2024-10-07 14:03:16,287 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:16,287 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:16,290 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:21,334 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:21,342 - INFO - 1 registros encontrados.
+2024-10-07 14:03:21,379 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:21,379 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:21,382 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:26,403 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:26,409 - INFO - 1 registros encontrados.
+2024-10-07 14:03:26,461 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:26,461 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:26,464 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:31,512 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:31,519 - INFO - 1 registros encontrados.
+2024-10-07 14:03:31,562 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:31,562 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:31,565 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:36,612 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:36,621 - INFO - 1 registros encontrados.
+2024-10-07 14:03:36,670 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:36,671 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:36,674 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:41,716 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:41,722 - INFO - 1 registros encontrados.
+2024-10-07 14:03:41,748 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:41,748 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:41,751 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:46,800 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:46,807 - INFO - 1 registros encontrados.
+2024-10-07 14:03:46,836 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:46,836 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:46,839 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:51,883 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:51,891 - INFO - 1 registros encontrados.
+2024-10-07 14:03:51,924 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:51,924 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:51,927 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:03:56,966 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:03:56,973 - INFO - 1 registros encontrados.
+2024-10-07 14:03:57,001 - INFO - Dados enviados com sucesso.
+2024-10-07 14:03:57,002 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:03:57,005 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:02,022 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:02,027 - INFO - 1 registros encontrados.
+2024-10-07 14:04:02,058 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:02,058 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:02,061 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:07,075 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:07,079 - INFO - 1 registros encontrados.
+2024-10-07 14:04:07,129 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:07,129 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:07,132 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:12,147 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:12,152 - INFO - 1 registros encontrados.
+2024-10-07 14:04:12,196 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:12,196 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:12,200 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:17,216 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:17,220 - INFO - 1 registros encontrados.
+2024-10-07 14:04:17,270 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:17,270 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:17,273 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:22,289 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:22,294 - INFO - 1 registros encontrados.
+2024-10-07 14:04:22,338 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:22,338 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:22,341 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:27,359 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:27,367 - INFO - 1 registros encontrados.
+2024-10-07 14:04:27,411 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:27,411 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:27,415 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:32,431 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:32,435 - INFO - 1 registros encontrados.
+2024-10-07 14:04:32,471 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:32,471 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:32,474 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:37,489 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:37,494 - INFO - 1 registros encontrados.
+2024-10-07 14:04:37,536 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:37,536 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:37,542 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:42,563 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:42,568 - INFO - 1 registros encontrados.
+2024-10-07 14:04:42,628 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:42,629 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:42,632 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:47,650 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:47,656 - INFO - 1 registros encontrados.
+2024-10-07 14:04:47,702 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:47,702 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:47,706 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:52,754 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:52,772 - INFO - 1 registros encontrados.
+2024-10-07 14:04:52,845 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:52,845 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:52,848 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:04:57,905 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:04:57,916 - INFO - 1 registros encontrados.
+2024-10-07 14:04:57,963 - INFO - Dados enviados com sucesso.
+2024-10-07 14:04:57,963 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:04:57,966 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:02,997 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:03,004 - INFO - 1 registros encontrados.
+2024-10-07 14:05:03,044 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:03,044 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:03,048 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:08,094 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:08,103 - INFO - 1 registros encontrados.
+2024-10-07 14:05:08,144 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:08,144 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:08,147 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:13,182 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:13,190 - INFO - 1 registros encontrados.
+2024-10-07 14:05:13,244 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:13,244 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:13,247 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:18,267 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:18,273 - INFO - 1 registros encontrados.
+2024-10-07 14:05:18,321 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:18,321 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:18,327 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:23,349 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:23,357 - INFO - 1 registros encontrados.
+2024-10-07 14:05:23,391 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:23,391 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:23,394 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:28,433 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:28,440 - INFO - 1 registros encontrados.
+2024-10-07 14:05:28,468 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:28,468 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:28,472 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:33,495 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:33,502 - INFO - 1 registros encontrados.
+2024-10-07 14:05:33,553 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:33,553 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:33,557 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:38,594 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:38,600 - INFO - 1 registros encontrados.
+2024-10-07 14:05:38,637 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:38,637 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:38,641 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:43,719 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:43,724 - INFO - 1 registros encontrados.
+2024-10-07 14:05:43,777 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:43,778 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:43,781 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:48,802 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:48,811 - INFO - 1 registros encontrados.
+2024-10-07 14:05:48,861 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:48,861 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:48,864 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:53,902 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:53,907 - INFO - 1 registros encontrados.
+2024-10-07 14:05:53,934 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:53,935 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:53,938 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:05:58,975 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:05:58,981 - INFO - 1 registros encontrados.
+2024-10-07 14:05:59,008 - INFO - Dados enviados com sucesso.
+2024-10-07 14:05:59,008 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:05:59,012 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:04,027 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:04,032 - INFO - 1 registros encontrados.
+2024-10-07 14:06:04,077 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:04,077 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:04,081 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:09,096 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:09,101 - INFO - 1 registros encontrados.
+2024-10-07 14:06:09,152 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:09,152 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:09,159 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:14,174 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:14,182 - INFO - 1 registros encontrados.
+2024-10-07 14:06:14,229 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:14,229 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:14,232 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:19,248 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:19,253 - INFO - 1 registros encontrados.
+2024-10-07 14:06:19,295 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:19,295 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:19,299 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:24,315 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:24,321 - INFO - 1 registros encontrados.
+2024-10-07 14:06:24,362 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:24,362 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:24,366 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:29,381 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:29,386 - INFO - 1 registros encontrados.
+2024-10-07 14:06:29,482 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:29,482 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:29,496 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:34,510 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:34,519 - INFO - 1 registros encontrados.
+2024-10-07 14:06:34,546 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:34,547 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:34,550 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:39,568 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:39,575 - INFO - 1 registros encontrados.
+2024-10-07 14:06:39,627 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:39,627 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:39,631 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:44,649 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:44,658 - INFO - 1 registros encontrados.
+2024-10-07 14:06:44,711 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:44,711 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:44,715 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:49,745 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:49,752 - INFO - 1 registros encontrados.
+2024-10-07 14:06:49,794 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:49,794 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:49,797 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:54,813 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:54,818 - INFO - 1 registros encontrados.
+2024-10-07 14:06:54,861 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:54,862 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:54,865 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:06:59,898 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:06:59,905 - INFO - 1 registros encontrados.
+2024-10-07 14:06:59,939 - INFO - Dados enviados com sucesso.
+2024-10-07 14:06:59,939 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:06:59,943 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:04,979 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:04,986 - INFO - 1 registros encontrados.
+2024-10-07 14:07:05,034 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:05,034 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:05,037 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:10,076 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:10,083 - INFO - 1 registros encontrados.
+2024-10-07 14:07:10,128 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:10,128 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:10,131 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:15,175 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:15,182 - INFO - 1 registros encontrados.
+2024-10-07 14:07:15,227 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:15,227 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:15,230 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:20,266 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:20,272 - INFO - 1 registros encontrados.
+2024-10-07 14:07:20,301 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:20,301 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:20,304 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:25,341 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:25,348 - INFO - 1 registros encontrados.
+2024-10-07 14:07:25,402 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:25,402 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:25,405 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:30,434 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:30,441 - INFO - 1 registros encontrados.
+2024-10-07 14:07:30,486 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:30,486 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:30,489 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:35,526 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:35,532 - INFO - 1 registros encontrados.
+2024-10-07 14:07:35,585 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:35,585 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:35,588 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:40,603 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:40,609 - INFO - 1 registros encontrados.
+2024-10-07 14:07:40,635 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:40,635 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:40,639 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:45,674 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:45,681 - INFO - 1 registros encontrados.
+2024-10-07 14:07:45,709 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:45,709 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:45,713 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:50,743 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:50,749 - INFO - 1 registros encontrados.
+2024-10-07 14:07:50,794 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:50,794 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:50,798 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:07:55,831 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:07:55,837 - INFO - 1 registros encontrados.
+2024-10-07 14:07:55,865 - INFO - Dados enviados com sucesso.
+2024-10-07 14:07:55,865 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:07:55,869 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:00,888 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:00,893 - INFO - 1 registros encontrados.
+2024-10-07 14:08:00,936 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:00,937 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:00,940 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:05,957 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:05,962 - INFO - 1 registros encontrados.
+2024-10-07 14:08:06,012 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:06,012 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:06,016 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:11,032 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:11,037 - INFO - 1 registros encontrados.
+2024-10-07 14:08:11,085 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:11,085 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:11,088 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:16,108 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:16,113 - INFO - 1 registros encontrados.
+2024-10-07 14:08:16,168 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:16,168 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:16,172 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:21,194 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:21,199 - INFO - 1 registros encontrados.
+2024-10-07 14:08:21,253 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:21,253 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:21,257 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:26,277 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:26,284 - INFO - 1 registros encontrados.
+2024-10-07 14:08:26,311 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:26,312 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:26,319 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:31,339 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:31,345 - INFO - 1 registros encontrados.
+2024-10-07 14:08:31,405 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:31,405 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:31,408 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:36,439 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:36,444 - INFO - 1 registros encontrados.
+2024-10-07 14:08:36,486 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:36,486 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:36,489 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:41,507 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:41,512 - INFO - 1 registros encontrados.
+2024-10-07 14:08:41,559 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:41,560 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:41,563 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:46,582 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:46,587 - INFO - 1 registros encontrados.
+2024-10-07 14:08:46,621 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:46,621 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:46,624 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:51,657 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:51,664 - INFO - 1 registros encontrados.
+2024-10-07 14:08:51,709 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:51,709 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:51,712 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:08:56,744 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:08:56,754 - INFO - 1 registros encontrados.
+2024-10-07 14:08:56,808 - INFO - Dados enviados com sucesso.
+2024-10-07 14:08:56,809 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:08:56,812 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:01,828 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:01,833 - INFO - 1 registros encontrados.
+2024-10-07 14:09:01,884 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:01,884 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:01,887 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:06,905 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:06,912 - INFO - 1 registros encontrados.
+2024-10-07 14:09:06,962 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:06,962 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:06,967 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:12,013 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:12,019 - INFO - 1 registros encontrados.
+2024-10-07 14:09:12,045 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:12,045 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:12,048 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:17,078 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:17,084 - INFO - 1 registros encontrados.
+2024-10-07 14:09:17,143 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:17,143 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:17,146 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:22,201 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:22,210 - INFO - 1 registros encontrados.
+2024-10-07 14:09:22,246 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:22,247 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:22,251 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:27,266 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:27,271 - INFO - 1 registros encontrados.
+2024-10-07 14:09:27,298 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:27,298 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:27,302 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:32,344 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:32,350 - INFO - 1 registros encontrados.
+2024-10-07 14:09:32,378 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:32,378 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:32,381 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:37,425 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:37,434 - INFO - 1 registros encontrados.
+2024-10-07 14:09:37,485 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:37,485 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:37,488 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:42,541 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:42,549 - INFO - 1 registros encontrados.
+2024-10-07 14:09:42,579 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:42,579 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:42,582 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:47,621 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:47,627 - INFO - 1 registros encontrados.
+2024-10-07 14:09:47,660 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:47,660 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:47,663 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:52,717 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:52,728 - INFO - 1 registros encontrados.
+2024-10-07 14:09:52,777 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:52,777 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:52,781 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:09:57,798 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:09:57,805 - INFO - 1 registros encontrados.
+2024-10-07 14:09:57,852 - INFO - Dados enviados com sucesso.
+2024-10-07 14:09:57,852 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:09:57,855 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:10:02,874 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:10:02,878 - INFO - 1 registros encontrados.
+2024-10-07 14:10:02,919 - INFO - Dados enviados com sucesso.
+2024-10-07 14:10:02,919 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:10:02,922 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:10:07,945 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:10:07,951 - INFO - 1 registros encontrados.
+2024-10-07 14:10:08,041 - INFO - Dados enviados com sucesso.
+2024-10-07 14:10:08,041 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:10:08,045 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:10:13,076 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:10:13,083 - INFO - 1 registros encontrados.
+2024-10-07 14:10:13,134 - INFO - Dados enviados com sucesso.
+2024-10-07 14:10:13,134 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:10:13,138 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:10:18,164 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:10:18,171 - INFO - 1 registros encontrados.
+2024-10-07 14:10:18,228 - INFO - Dados enviados com sucesso.
+2024-10-07 14:10:18,228 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:10:18,231 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:10:23,248 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:10:23,253 - INFO - 1 registros encontrados.
+2024-10-07 14:10:23,302 - INFO - Dados enviados com sucesso.
+2024-10-07 14:10:23,302 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:10:23,306 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:10:28,321 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:10:28,326 - INFO - 1 registros encontrados.
+2024-10-07 14:10:28,385 - INFO - Dados enviados com sucesso.
+2024-10-07 14:10:28,385 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:10:28,389 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:10:33,406 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:10:33,410 - INFO - 1 registros encontrados.
+2024-10-07 14:10:33,455 - INFO - Dados enviados com sucesso.
+2024-10-07 14:10:33,455 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:10:33,459 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:15:13,941 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:15:13,949 - INFO - 1 registros encontrados.
+2024-10-07 14:15:14,006 - INFO - Dados enviados com sucesso.
+2024-10-07 14:15:14,006 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:15:14,009 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:15:19,039 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:15:19,049 - INFO - 1 registros encontrados.
+2024-10-07 14:15:19,092 - INFO - Dados enviados com sucesso.
+2024-10-07 14:15:19,092 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:15:19,096 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:15:24,112 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:15:24,117 - INFO - 1 registros encontrados.
+2024-10-07 14:15:24,166 - INFO - Dados enviados com sucesso.
+2024-10-07 14:15:24,166 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:15:24,169 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:15:29,221 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:15:29,233 - INFO - 1 registros encontrados.
+2024-10-07 14:15:29,287 - INFO - Dados enviados com sucesso.
+2024-10-07 14:15:29,287 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:15:29,291 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:15:34,307 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:15:34,314 - INFO - 1 registros encontrados.
+2024-10-07 14:15:34,368 - INFO - Dados enviados com sucesso.
+2024-10-07 14:15:34,368 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:15:34,373 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:15:39,392 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:15:39,397 - INFO - 1 registros encontrados.
+2024-10-07 14:15:39,440 - INFO - Dados enviados com sucesso.
+2024-10-07 14:15:39,440 - INFO - Resposta da API: {'message': 'Cliente atualizado com sucesso!'}
+2024-10-07 14:15:39,443 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:17:08,591 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:17:08,614 - INFO - 1 registros encontrados.
+2024-10-07 14:17:12,712 - ERROR - Erro ao enviar dados para a API: HTTPConnectionPool(host='localhost', port=7584): Max retries exceeded with url: /dados (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x066675F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2024-10-07 14:17:12,718 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:17:17,740 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:17:17,748 - INFO - 1 registros encontrados.
+2024-10-07 14:17:21,810 - ERROR - Erro ao enviar dados para a API: HTTPConnectionPool(host='localhost', port=7584): Max retries exceeded with url: /dados (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06670030>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2024-10-07 14:17:21,812 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-07 14:17:26,855 - INFO - Conexão com o Firebird estabelecida.
+2024-10-07 14:17:26,863 - INFO - 1 registros encontrados.
+2024-10-07 14:17:30,919 - ERROR - Erro ao enviar dados para a API: HTTPConnectionPool(host='localhost', port=7584): Max retries exceeded with url: /dados (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x072B7C00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2024-10-07 14:17:30,926 - INFO - Aguardando 5 segundos para a próxima execução...
