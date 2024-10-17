@@ -1002,3 +1002,4 @@ KeyboardInterrupt
 2024-10-16 21:17:26,836 - INFO - 1 registros encontrados.
 2024-10-16 21:17:26,853 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
 2024-10-16 21:17:26,854 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-17 14:52:05,155 - INFO - Execução interrompida pelo usuário.

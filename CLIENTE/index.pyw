@@ -187,9 +187,6 @@ def criar_icone_bandeja():
         icon.stop()
         root.quit()
 
-    # Cria o ícone da bandeja
-
-
     # Função modificada para minimizar a janela principal e exibir o ícone na bandeja
     def minimizar_para_bandeja():
         root.withdraw() # Esconde a janela principal
