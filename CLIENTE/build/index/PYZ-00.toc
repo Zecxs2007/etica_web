@@ -1,877 +1,1305 @@
-('D:\\CLIENTES_CONTINGENCIA\\cliente\\build\\index\\PYZ-00.pyz',
- [('__future__',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\__future__.py',
-   'PYMODULE'),
-  ('_colorize',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_colorize.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('_compression',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_compression.py',
-   'PYMODULE'),
-  ('_ios_support',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_ios_support.py',
-   'PYMODULE'),
-  ('_opcode_metadata',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_opcode_metadata.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_py_abc.py',
-   'PYMODULE'),
-  ('_pydatetime',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_pydatetime.py',
-   'PYMODULE'),
-  ('_pydecimal',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_pydecimal.py',
-   'PYMODULE'),
-  ('_strptime',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_strptime.py',
-   'PYMODULE'),
-  ('_threading_local',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\_threading_local.py',
-   'PYMODULE'),
-  ('argparse',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\argparse.py',
-   'PYMODULE'),
-  ('ast',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ast.py',
-   'PYMODULE'),
-  ('base64',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\base64.py',
-   'PYMODULE'),
-  ('bisect',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\bisect.py',
-   'PYMODULE'),
-  ('bz2',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\bz2.py',
-   'PYMODULE'),
-  ('calendar',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\calendar.py',
-   'PYMODULE'),
-  ('certifi',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\certifi\\__init__.py',
-   'PYMODULE'),
-  ('certifi.core',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\certifi\\core.py',
-   'PYMODULE'),
-  ('charset_normalizer',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\__init__.py',
-   'PYMODULE'),
-  ('charset_normalizer.api',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\api.py',
-   'PYMODULE'),
-  ('charset_normalizer.cd',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\cd.py',
-   'PYMODULE'),
-  ('charset_normalizer.constant',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\constant.py',
-   'PYMODULE'),
-  ('charset_normalizer.legacy',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\legacy.py',
-   'PYMODULE'),
-  ('charset_normalizer.md',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\md.py',
-   'PYMODULE'),
-  ('charset_normalizer.models',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\models.py',
-   'PYMODULE'),
-  ('charset_normalizer.utils',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\utils.py',
-   'PYMODULE'),
-  ('charset_normalizer.version',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\charset_normalizer\\version.py',
-   'PYMODULE'),
-  ('configparser',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\configparser.py',
-   'PYMODULE'),
-  ('contextlib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\contextlib.py',
-   'PYMODULE'),
-  ('contextvars',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\contextvars.py',
-   'PYMODULE'),
-  ('copy',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\copy.py',
-   'PYMODULE'),
-  ('csv',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\csv.py',
-   'PYMODULE'),
-  ('ctypes',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ctypes\\__init__.py',
-   'PYMODULE'),
-  ('ctypes._aix',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ctypes\\_aix.py',
-   'PYMODULE'),
-  ('ctypes._endian',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ctypes\\_endian.py',
-   'PYMODULE'),
-  ('ctypes.macholib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ctypes\\macholib\\__init__.py',
-   'PYMODULE'),
-  ('ctypes.macholib.dyld',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ctypes\\macholib\\dyld.py',
-   'PYMODULE'),
-  ('ctypes.macholib.dylib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ctypes\\macholib\\dylib.py',
-   'PYMODULE'),
-  ('ctypes.macholib.framework',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ctypes\\macholib\\framework.py',
-   'PYMODULE'),
-  ('ctypes.util',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ctypes\\util.py',
-   'PYMODULE'),
-  ('dataclasses',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\dataclasses.py',
-   'PYMODULE'),
-  ('datetime',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\datetime.py',
-   'PYMODULE'),
-  ('decimal',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\decimal.py',
-   'PYMODULE'),
-  ('dis',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\dis.py',
-   'PYMODULE'),
-  ('email',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\__init__.py',
-   'PYMODULE'),
-  ('email._encoded_words',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\_encoded_words.py',
-   'PYMODULE'),
-  ('email._header_value_parser',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\_header_value_parser.py',
-   'PYMODULE'),
-  ('email._parseaddr',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\_parseaddr.py',
-   'PYMODULE'),
-  ('email._policybase',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\_policybase.py',
-   'PYMODULE'),
-  ('email.base64mime',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\base64mime.py',
-   'PYMODULE'),
-  ('email.charset',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\charset.py',
-   'PYMODULE'),
-  ('email.contentmanager',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\contentmanager.py',
-   'PYMODULE'),
-  ('email.encoders',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\encoders.py',
-   'PYMODULE'),
-  ('email.errors',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\errors.py',
-   'PYMODULE'),
-  ('email.feedparser',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\feedparser.py',
-   'PYMODULE'),
-  ('email.generator',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\generator.py',
-   'PYMODULE'),
-  ('email.header',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\header.py',
-   'PYMODULE'),
-  ('email.headerregistry',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\headerregistry.py',
-   'PYMODULE'),
-  ('email.iterators',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\iterators.py',
-   'PYMODULE'),
-  ('email.message',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\message.py',
-   'PYMODULE'),
-  ('email.parser',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\parser.py',
-   'PYMODULE'),
-  ('email.policy',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\policy.py',
-   'PYMODULE'),
-  ('email.quoprimime',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\quoprimime.py',
-   'PYMODULE'),
-  ('email.utils',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\email\\utils.py',
-   'PYMODULE'),
-  ('fdb',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\__init__.py',
-   'PYMODULE'),
-  ('fdb.blr',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\blr.py',
-   'PYMODULE'),
-  ('fdb.fbcore',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\fbcore.py',
-   'PYMODULE'),
-  ('fdb.gstat',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\gstat.py',
-   'PYMODULE'),
-  ('fdb.ibase',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\ibase.py',
-   'PYMODULE'),
-  ('fdb.monitor',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\monitor.py',
-   'PYMODULE'),
-  ('fdb.schema',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\schema.py',
-   'PYMODULE'),
-  ('fdb.services',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\services.py',
-   'PYMODULE'),
-  ('fdb.trace',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\trace.py',
-   'PYMODULE'),
-  ('fdb.utils',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\fdb\\utils.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\fnmatch.py',
-   'PYMODULE'),
-  ('fractions',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\fractions.py',
-   'PYMODULE'),
-  ('ftplib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ftplib.py',
-   'PYMODULE'),
-  ('getopt',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\getopt.py',
-   'PYMODULE'),
-  ('getpass',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\getpass.py',
-   'PYMODULE'),
-  ('gettext',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\gettext.py',
-   'PYMODULE'),
-  ('glob',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\glob.py',
-   'PYMODULE'),
-  ('gzip',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\gzip.py',
-   'PYMODULE'),
-  ('hashlib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\hashlib.py',
-   'PYMODULE'),
-  ('hmac',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\hmac.py',
-   'PYMODULE'),
-  ('http',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\http\\__init__.py',
-   'PYMODULE'),
-  ('http.client',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\http\\client.py',
-   'PYMODULE'),
-  ('http.cookiejar',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\http\\cookiejar.py',
-   'PYMODULE'),
-  ('http.cookies',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\http\\cookies.py',
-   'PYMODULE'),
-  ('idna',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\idna\\__init__.py',
-   'PYMODULE'),
-  ('idna.core',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\idna\\core.py',
-   'PYMODULE'),
-  ('idna.idnadata',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\idna\\idnadata.py',
-   'PYMODULE'),
-  ('idna.intranges',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\idna\\intranges.py',
-   'PYMODULE'),
-  ('idna.package_data',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\idna\\package_data.py',
-   'PYMODULE'),
-  ('idna.uts46data',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\idna\\uts46data.py',
-   'PYMODULE'),
-  ('importlib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\__init__.py',
-   'PYMODULE'),
-  ('importlib._abc',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\_abc.py',
-   'PYMODULE'),
-  ('importlib._bootstrap',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\_bootstrap.py',
-   'PYMODULE'),
-  ('importlib._bootstrap_external',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\_bootstrap_external.py',
-   'PYMODULE'),
-  ('importlib.abc',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\abc.py',
-   'PYMODULE'),
-  ('importlib.machinery',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\machinery.py',
-   'PYMODULE'),
-  ('importlib.metadata',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\metadata\\__init__.py',
-   'PYMODULE'),
-  ('importlib.metadata._adapters',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\metadata\\_adapters.py',
-   'PYMODULE'),
-  ('importlib.metadata._collections',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\metadata\\_collections.py',
-   'PYMODULE'),
-  ('importlib.metadata._functools',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\metadata\\_functools.py',
-   'PYMODULE'),
-  ('importlib.metadata._itertools',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\metadata\\_itertools.py',
-   'PYMODULE'),
-  ('importlib.metadata._meta',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\metadata\\_meta.py',
-   'PYMODULE'),
-  ('importlib.metadata._text',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\metadata\\_text.py',
-   'PYMODULE'),
-  ('importlib.readers',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\readers.py',
-   'PYMODULE'),
-  ('importlib.resources',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\resources\\__init__.py',
-   'PYMODULE'),
-  ('importlib.resources._adapters',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\resources\\_adapters.py',
-   'PYMODULE'),
-  ('importlib.resources._common',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\resources\\_common.py',
-   'PYMODULE'),
-  ('importlib.resources._functional',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\resources\\_functional.py',
-   'PYMODULE'),
-  ('importlib.resources._itertools',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\resources\\_itertools.py',
-   'PYMODULE'),
-  ('importlib.resources.abc',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\resources\\abc.py',
-   'PYMODULE'),
-  ('importlib.resources.readers',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\resources\\readers.py',
-   'PYMODULE'),
-  ('importlib.util',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\importlib\\util.py',
-   'PYMODULE'),
-  ('inspect',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\inspect.py',
-   'PYMODULE'),
-  ('ipaddress',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ipaddress.py',
-   'PYMODULE'),
-  ('json',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\json\\__init__.py',
-   'PYMODULE'),
-  ('json.decoder',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\json\\decoder.py',
-   'PYMODULE'),
-  ('json.encoder',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\json\\encoder.py',
-   'PYMODULE'),
-  ('json.scanner',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\json\\scanner.py',
-   'PYMODULE'),
-  ('logging',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('lzma',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\lzma.py',
-   'PYMODULE'),
-  ('mimetypes',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\mimetypes.py',
-   'PYMODULE'),
-  ('netrc',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\netrc.py',
-   'PYMODULE'),
-  ('nturl2path',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\nturl2path.py',
-   'PYMODULE'),
-  ('numbers',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\numbers.py',
-   'PYMODULE'),
-  ('opcode',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\opcode.py',
-   'PYMODULE'),
-  ('pathlib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pathlib\\__init__.py',
-   'PYMODULE'),
-  ('pathlib._abc',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pathlib\\_abc.py',
-   'PYMODULE'),
-  ('pathlib._local',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pathlib\\_local.py',
-   'PYMODULE'),
-  ('pickle',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pickle.py',
-   'PYMODULE'),
-  ('platform',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\platform.py',
-   'PYMODULE'),
-  ('pprint',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\pprint.py',
-   'PYMODULE'),
-  ('py_compile',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\py_compile.py',
-   'PYMODULE'),
-  ('queue',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\queue.py',
-   'PYMODULE'),
-  ('quopri',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\quopri.py',
-   'PYMODULE'),
-  ('random',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\random.py',
-   'PYMODULE'),
-  ('requests',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\__init__.py',
-   'PYMODULE'),
-  ('requests.__version__',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\__version__.py',
-   'PYMODULE'),
-  ('requests._internal_utils',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\_internal_utils.py',
-   'PYMODULE'),
-  ('requests.adapters',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\adapters.py',
-   'PYMODULE'),
-  ('requests.api',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\api.py',
-   'PYMODULE'),
-  ('requests.auth',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\auth.py',
-   'PYMODULE'),
-  ('requests.certs',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\certs.py',
-   'PYMODULE'),
-  ('requests.compat',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\compat.py',
-   'PYMODULE'),
-  ('requests.cookies',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\cookies.py',
-   'PYMODULE'),
-  ('requests.exceptions',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\exceptions.py',
-   'PYMODULE'),
-  ('requests.hooks',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\hooks.py',
-   'PYMODULE'),
-  ('requests.models',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\models.py',
-   'PYMODULE'),
-  ('requests.packages',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\packages.py',
-   'PYMODULE'),
-  ('requests.sessions',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\sessions.py',
-   'PYMODULE'),
-  ('requests.status_codes',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\status_codes.py',
-   'PYMODULE'),
-  ('requests.structures',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\structures.py',
-   'PYMODULE'),
-  ('requests.utils',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\requests\\utils.py',
-   'PYMODULE'),
-  ('selectors',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\selectors.py',
-   'PYMODULE'),
-  ('shutil',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\shutil.py',
-   'PYMODULE'),
-  ('signal',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\signal.py',
-   'PYMODULE'),
-  ('socket',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\socket.py',
-   'PYMODULE'),
-  ('ssl',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\ssl.py',
-   'PYMODULE'),
-  ('statistics',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\statistics.py',
-   'PYMODULE'),
-  ('string',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\string.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\stringprep.py',
+('E:\\CLIENTES_CONTINGENCIA\\cliente\\build\\index\\PYZ-00.pyz',
+ [('os',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\os.py',
    'PYMODULE'),
   ('subprocess',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\subprocess.py',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\subprocess.py',
    'PYMODULE'),
-  ('tarfile',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\tarfile.py',
+  ('dummy_threading',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\dummy_threading.py',
    'PYMODULE'),
-  ('tempfile',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\tempfile.py',
+  ('_dummy_thread',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\signal.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\string.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\stat.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\inspect.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\argparse.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\struct.py',
    'PYMODULE'),
   ('textwrap',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\textwrap.py',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\textwrap.py',
    'PYMODULE'),
-  ('threading',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\threading.py',
+  ('copy',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\copy.py',
    'PYMODULE'),
   ('token',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\token.py',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\token.py',
    'PYMODULE'),
-  ('tokenize',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\tokenize.py',
+  ('importlib.machinery',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ast.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\_compression.py',
    'PYMODULE'),
   ('tracemalloc',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\tracemalloc.py',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('typing',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\typing.py',
+  ('pickle',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\pickle.py',
    'PYMODULE'),
-  ('typing_extensions',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions.py',
+  ('pprint',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\pprint.py',
    'PYMODULE'),
-  ('urllib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\urllib\\__init__.py',
+  ('doctest',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\doctest.py',
    'PYMODULE'),
-  ('urllib.error',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\urllib\\error.py',
+  ('unittest',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\__init__.py',
    'PYMODULE'),
-  ('urllib.parse',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\urllib\\parse.py',
+  ('unittest.signals',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\signals.py',
    'PYMODULE'),
-  ('urllib.request',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\urllib\\request.py',
+  ('unittest.main',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\main.py',
    'PYMODULE'),
-  ('urllib.response',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\urllib\\response.py',
+  ('unittest.runner',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\runner.py',
    'PYMODULE'),
-  ('urllib3',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\__init__.py',
+  ('unittest.loader',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\loader.py',
    'PYMODULE'),
-  ('urllib3._base_connection',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\_base_connection.py',
+  ('unittest.suite',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\suite.py',
    'PYMODULE'),
-  ('urllib3._collections',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\_collections.py',
+  ('unittest.case',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\case.py',
    'PYMODULE'),
-  ('urllib3._request_methods',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\_request_methods.py',
+  ('unittest.result',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\result.py',
    'PYMODULE'),
-  ('urllib3._version',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\_version.py',
+  ('unittest.util',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\unittest\\util.py',
    'PYMODULE'),
-  ('urllib3.connection',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\connection.py',
+  ('pdb',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\pdb.py',
    'PYMODULE'),
-  ('urllib3.connectionpool',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\connectionpool.py',
+  ('pydoc',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\pydoc.py',
    'PYMODULE'),
-  ('urllib3.contrib',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+  ('webbrowser',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\webbrowser.py',
    'PYMODULE'),
-  ('urllib3.contrib.emscripten',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
+  ('socket',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\socket.py',
    'PYMODULE'),
-  ('urllib3.contrib.emscripten.connection',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
-   'PYMODULE'),
-  ('urllib3.contrib.emscripten.fetch',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
-   'PYMODULE'),
-  ('urllib3.contrib.emscripten.request',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
-   'PYMODULE'),
-  ('urllib3.contrib.emscripten.response',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
-   'PYMODULE'),
-  ('urllib3.contrib.pyopenssl',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
-   'PYMODULE'),
-  ('urllib3.contrib.socks',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
-   'PYMODULE'),
-  ('urllib3.exceptions',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\exceptions.py',
-   'PYMODULE'),
-  ('urllib3.fields',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\fields.py',
-   'PYMODULE'),
-  ('urllib3.filepost',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\filepost.py',
-   'PYMODULE'),
-  ('urllib3.http2',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\http2\\__init__.py',
-   'PYMODULE'),
-  ('urllib3.http2.connection',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\http2\\connection.py',
-   'PYMODULE'),
-  ('urllib3.http2.probe',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\http2\\probe.py',
-   'PYMODULE'),
-  ('urllib3.poolmanager',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\poolmanager.py',
-   'PYMODULE'),
-  ('urllib3.response',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\response.py',
-   'PYMODULE'),
-  ('urllib3.util',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\__init__.py',
-   'PYMODULE'),
-  ('urllib3.util.connection',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\connection.py',
-   'PYMODULE'),
-  ('urllib3.util.proxy',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\proxy.py',
-   'PYMODULE'),
-  ('urllib3.util.request',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\request.py',
-   'PYMODULE'),
-  ('urllib3.util.response',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\response.py',
-   'PYMODULE'),
-  ('urllib3.util.retry',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\retry.py',
-   'PYMODULE'),
-  ('urllib3.util.ssl_',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
-   'PYMODULE'),
-  ('urllib3.util.ssl_match_hostname',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
-   'PYMODULE'),
-  ('urllib3.util.ssltransport',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
-   'PYMODULE'),
-  ('urllib3.util.timeout',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\timeout.py',
-   'PYMODULE'),
-  ('urllib3.util.url',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\url.py',
-   'PYMODULE'),
-  ('urllib3.util.util',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\util.py',
-   'PYMODULE'),
-  ('urllib3.util.wait',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\site-packages\\urllib3\\util\\wait.py',
+  ('shutil',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\shutil.py',
    'PYMODULE'),
   ('zipfile',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\zipfile\\__init__.py',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\zipfile.py',
    'PYMODULE'),
-  ('zipfile._path',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\zipfile\\_path\\__init__.py',
+  ('py_compile',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\py_compile.py',
    'PYMODULE'),
-  ('zipfile._path.glob',
-   'C:\\Users\\usuário '
-   'etica\\AppData\\Local\\Programs\\Python\\Python313-32\\Lib\\zipfile\\_path\\glob.py',
+  ('tarfile',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\gzip.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\random.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\bisect.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\calendar.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\optparse.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ssl.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tty.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\netrc.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\shlex.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\codeop.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\cmd.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageDraw.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw2',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageDraw2.py',
+   'PYMODULE'),
+  ('PIL.ImagePath',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImagePath.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\numbers.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\fractions.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('pystray',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\__init__.py',
+   'PYMODULE'),
+  ('pystray._util.win32',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_util\\win32.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('pystray._info',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_info.py',
+   'PYMODULE'),
+  ('pystray._util.gtk',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_util\\gtk.py',
+   'PYMODULE'),
+  ('pystray._util',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_util\\__init__.py',
+   'PYMODULE'),
+  ('pystray._util.notify_dbus',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_util\\notify_dbus.py',
+   'PYMODULE'),
+  ('pystray._base',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_base.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\queue.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('pystray._xorg',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_xorg.py',
+   'PYMODULE'),
+  ('pystray._win32',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_win32.py',
+   'PYMODULE'),
+  ('pystray._gtk',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_gtk.py',
+   'PYMODULE'),
+  ('pystray._darwin',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_darwin.py',
+   'PYMODULE'),
+  ('pystray._appindicator',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_appindicator.py',
+   'PYMODULE'),
+  ('pystray._dummy',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\pystray\\_dummy.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('tkinter.simpledialog',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tkinter\\simpledialog.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\configparser.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\datetime.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('requests',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('requests.api',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('idna',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('idna.core',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('urllib3.packages.six',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\packages\\six.py',
+   'PYMODULE'),
+  ('urllib3.packages',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\packages\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports.weakref_finalize',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\packages\\backports\\weakref_finalize.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\packages\\backports\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.queue',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\queue.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\hmac.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.contrib._appengine_environ',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\contrib\\_appengine_environ.py',
+   'PYMODULE'),
+  ('urllib3.request',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\request.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.models',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports.makefile',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\packages\\backports\\makefile.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.assets',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\assets\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.md',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\md.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('fdb',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\__init__.py',
+   'PYMODULE'),
+  ('fdb.gstat',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\gstat.py',
+   'PYMODULE'),
+  ('fdb.utils',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\utils.py',
+   'PYMODULE'),
+  ('fdb.trace',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\trace.py',
+   'PYMODULE'),
+  ('fdb.blr',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\blr.py',
+   'PYMODULE'),
+  ('fdb.services',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\services.py',
+   'PYMODULE'),
+  ('fdb.fbcore',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\fbcore.py',
+   'PYMODULE'),
+  ('fdb.monitor',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\monitor.py',
+   'PYMODULE'),
+  ('fdb.schema',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\schema.py',
+   'PYMODULE'),
+  ('fdb.ibase',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\fdb\\ibase.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\ezequiel '
+   'cavalcante\\appdata\\local\\programs\\python\\python36-32\\lib\\ctypes\\macholib\\framework.py',
    'PYMODULE')])

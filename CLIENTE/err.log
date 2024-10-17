@@ -950,3 +950,55 @@
 2024-10-07 14:17:26,863 - INFO - 1 registros encontrados.
 2024-10-07 14:17:30,919 - ERROR - Erro ao enviar dados para a API: HTTPConnectionPool(host='localhost', port=7584): Max retries exceeded with url: /dados (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x072B7C00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
 2024-10-07 14:17:30,926 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:28:28,909 - ERROR - An error occurred in the main loop
+Traceback (most recent call last):
+  File "C:\Users\Ezequiel Cavalcante\AppData\Local\Programs\Python\Python312\Lib\site-packages\pystray\_win32.py", line 147, in _mainloop
+    r = win32.GetMessage(lpmsg, None, 0, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-10-16 19:28:49,049 - INFO - Execução interrompida pelo usuário.
+2024-10-16 19:57:09,675 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:11,809 - INFO - 1 registros encontrados.
+2024-10-16 19:57:11,869 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:11,871 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:57:12,348 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:12,509 - INFO - 1 registros encontrados.
+2024-10-16 19:57:12,529 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:16,881 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:17,053 - INFO - 1 registros encontrados.
+2024-10-16 19:57:17,069 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:17,071 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:57:22,081 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:22,244 - INFO - 1 registros encontrados.
+2024-10-16 19:57:22,258 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:22,260 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:57:27,271 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:27,432 - INFO - 1 registros encontrados.
+2024-10-16 19:57:27,446 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:27,448 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:57:32,468 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:32,637 - INFO - 1 registros encontrados.
+2024-10-16 19:57:32,652 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:32,654 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:57:37,674 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:37,835 - INFO - 1 registros encontrados.
+2024-10-16 19:57:37,849 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:37,851 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:57:42,869 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:43,029 - INFO - 1 registros encontrados.
+2024-10-16 19:57:43,042 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:43,044 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:57:48,069 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:48,233 - INFO - 1 registros encontrados.
+2024-10-16 19:57:48,248 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 19:57:48,250 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 19:57:53,269 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 19:57:53,434 - INFO - 1 registros encontrados.
+2024-10-16 21:17:18,215 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 21:17:21,395 - INFO - 1 registros encontrados.
+2024-10-16 21:17:21,569 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 21:17:21,571 - INFO - Aguardando 5 segundos para a próxima execução...
+2024-10-16 21:17:26,592 - INFO - Conexão com o Firebird estabelecida.
+2024-10-16 21:17:26,836 - INFO - 1 registros encontrados.
+2024-10-16 21:17:26,853 - ERROR - Erro ao enviar dados: 500 - {"error":"Erro ao conectar ao banco de dados"}
+2024-10-16 21:17:26,854 - INFO - Aguardando 5 segundos para a próxima execução...

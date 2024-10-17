@@ -188,14 +188,15 @@ def criar_icone_bandeja():
         root.quit()
 
     # Cria o ícone da bandeja
-    icone = pystray.Icon("app_name", criar_icone(), menu=pystray.Menu(
-        pystray.MenuItem("Restaurar", restaurar_janela),
-        pystray.MenuItem("Sair", sair)
-    ))
+
 
     # Função modificada para minimizar a janela principal e exibir o ícone na bandeja
     def minimizar_para_bandeja():
-        root.withdraw()  # Esconde a janela principal
+        root.withdraw() # Esconde a janela principal
+        icone = pystray.Icon("app_name", criar_icone(), menu=pystray.Menu(
+            pystray.MenuItem("Restaurar", restaurar_janela),
+            pystray.MenuItem("Sair", sair)
+        ))
         icone.run()
 
     # Associa o evento de minimizar
