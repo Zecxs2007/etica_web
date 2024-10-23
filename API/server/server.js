@@ -4,7 +4,7 @@ const cors = require('cors');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = 9834;
 
 // Permite que o frontend (public/index.js) faça requisições para o backend
 app.use(cors());

@@ -1,51 +1,80 @@
-let dadosClientes = []; // Variável global para armazenar os dados dos clientes
+let sortDirection = 1; // 1 para ascendente, -1 para descendente
+let activeColumn = null; // Para rastrear qual coluna está sendo ordenada
 
-async function fetchDados() {
+// Função principal para buscar e atualizar os dados
+async function main() {
     try {
-        const response = await fetch('http://localhost:3000/dados');
-
-        if (!response.ok) {
-            throw new Error('Erro na rede ao buscar os dados');
-        }
-
-        const data = await response.json();
-        console.log('Dados recebidos do servidor:', data);
-        dadosClientes = data; // Armazena os dados recebidos na variável global
-        return dadosClientes;
+        const response = await fetch('http://localhost:9834/dados');
+        const dados = await response.json();
+        
+        // Armazenar os dados no localStorage
+        localStorage.setItem('dadosClientes', JSON.stringify(dados));
+        
+        atualizarTabela(dados);
     } catch (error) {
-        console.error('Erro ao buscar dados:', error);
-        return []; // Retorna um array vazio em caso de erro
+        console.error('Erro ao buscar os dados:', error);
     }
 }
 
-function atualizarTabela() {
-    fetchDados().then(data => {
-        const tabelaClientes = document.getElementById('tabela-clientes');
-        tabelaClientes.innerHTML = ''; // Limpa o tbody
+// Função para atualizar a tabela com os dados recebidos ou armazenados
+function atualizarTabela(dados) {
+    const tabelaClientes = document.getElementById('tabela-clientes');
+    tabelaClientes.innerHTML = ''; // Limpa a tabela antes de inserir novos dados
 
-        if (data && data.length > 0) { // Verifica se há dados para mostrar
-            // Itera sobre o array de dados
-            data.forEach(cliente => {
-                const cnpj = cliente.CNPJ;
-                const nome = cliente.NOME;
-                const quantidadeCupons = cliente.QUANTIDADECUPONS;
-                const dataHora = new Date(cliente.DATAHORA).toLocaleString();
+    dados.forEach(cliente => {
+        const row = document.createElement('tr');
 
-                const novaLinha = document.createElement('tr');
-                novaLinha.innerHTML = `
-                    <td>${cnpj}</td>
-                    <td>${nome}</td>
-                    <td>${quantidadeCupons}</td>
-                    <td>${dataHora}</td>
-                `;
+        row.innerHTML = `
+            <td>${cliente.CNPJ}</td>
+            <td>${cliente.NOME}</td>
+            <td>${cliente.QUANTIDADECUPONS}</td>
+            <td>${cliente.DATAHORA}</td>
+        `;
 
-                tabelaClientes.appendChild(novaLinha); // Adiciona a nova linha à tabela
-            });
-        } else {
-            console.warn('Nenhum dado recebido ou dados vazios.');
-        }
+        tabelaClientes.appendChild(row);
+    });
+}
+    const tabelaClientes = document.getElementById('tabela-clientes');
+    const rows = Array.from(tabelaClientes.querySelectorAll('tr'));
+
+    // Limpa e reinsere as linhas ordenadas na tabela
+    tabelaClientes.innerHTML = '';
+    rows.forEach(row => tabelaClientes.appendChild(row));
+
+// Função de busca filtrada
+function filtrarTabela() {
+    const searchValue = document.getElementById('search-input').value.toLowerCase();
+    const searchCategory = document.getElementById('search-category').value;
+    
+    const tabelaClientes = document.getElementById('tabela-clientes');
+    const rows = tabelaClientes.querySelectorAll('tr');
+
+    rows.forEach(row => {
+        const columnIndex = searchCategory === 'CNPJ' ? 0 
+                         : searchCategory === 'Nome' ? 1 
+                         : 2; // Índice da coluna baseado na categoria selecionada
+
+        const cellValue = row.children[columnIndex].innerText.toLowerCase();
+        row.style.display = cellValue.includes(searchValue) ? '' : 'none';
     });
 }
 
-// Adiciona o evento ao botão de atualização
-document.getElementById('btn-atualizar').addEventListener('click', atualizarTabela);
+// Adiciona eventos de clique para ordenar as colunas
+document.querySelectorAll('th').forEach((th, index) => {
+    th.addEventListener('click', () => sortTableByColumn(index, th));
+});
+
+// Adiciona o evento para o campo de busca
+document.getElementById('search-input').addEventListener('input', filtrarTabela);
+
+// Tenta carregar os dados do localStorage ao carregar a página
+window.addEventListener('load', () => {
+    const dadosArmazenados = localStorage.getItem('dadosClientes');
+    if (dadosArmazenados) {
+        const dados = JSON.parse(dadosArmazenados);
+        atualizarTabela(dados);
+    } else {
+        // Se não houver dados no localStorage, chama a função principal para buscar os dados
+        main();
+    }
+});
