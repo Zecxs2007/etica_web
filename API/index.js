@@ -90,6 +90,6 @@ function dados(req, res) {
 app.post('/dados', dados);
 
 const PORT = 7584;
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Servidor rodando na porta ${PORT}`);
 });

@@ -11,9 +11,9 @@ app.use(cors());
 
 // Configurações de conexão com o Firebird
 const options = {
-    host: 'localhost', // Altere se necessário
-    port: 3050,        // Porta padrão do Firebird
-    database: path.join(__dirname, '../DADOS.FDB'), // Caminho relativo ao banco de dados Firebird
+    host: '10.100.141.1', 
+    port: 3050,        
+    database: path.join(__dirname, '../DADOS.FDB'),
     user: 'SYSDBA',
     password: 'masterkey',
     lowercase_keys: false,
@@ -49,5 +49,5 @@ app.get('/dados', (req, res) => {
 
 // Inicia o servidor na porta 3000
 app.listen(port, () => {
-    console.log(`Servidor rodando em http://localhost:${port}`);
+    console.log(`Servidor rodando em ${port}`);
 });

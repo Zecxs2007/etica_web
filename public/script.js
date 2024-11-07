@@ -4,7 +4,7 @@ let activeColumn = null; // Para rastrear qual coluna está sendo ordenada
 // Função principal para buscar e atualizar os dados
 async function main() {
     try {
-        const response = await fetch('http://localhost:9834/dados');
+        const response = await fetch('http://38.114.119.39:9834/dados');
         const dados = await response.json();
         
         // Armazenar os dados no localStorage
@@ -16,6 +16,17 @@ async function main() {
     }
 }
 
+// Função para formatar a data e hora
+function formatarDataHora(dataHoraISO) {
+    const data = new Date(dataHoraISO);
+    const dia = String(data.getDate()).padStart(2, '0');
+    const mes = String(data.getMonth() + 1).padStart(2, '0');
+    const ano = data.getFullYear();
+    const horas = String(data.getHours()).padStart(2, '0');
+    const minutos = String(data.getMinutes()).padStart(2, '0');
+    return `${dia}/${mes}/${ano} ${horas}:${minutos}`;
+}
+
 // Função para atualizar a tabela com os dados recebidos ou armazenados
 function atualizarTabela(dados) {
     const tabelaClientes = document.getElementById('tabela-clientes');
@@ -24,22 +35,19 @@ function atualizarTabela(dados) {
     dados.forEach(cliente => {
         const row = document.createElement('tr');
 
+        // Chama a função formatarDataHora para exibir a data e hora de forma mais amigável
+        const dataHoraFormatada = formatarDataHora(cliente.DATAHORA);
+
         row.innerHTML = `
             <td>${cliente.CNPJ}</td>
             <td>${cliente.NOME}</td>
             <td>${cliente.QUANTIDADECUPONS}</td>
-            <td>${cliente.DATAHORA}</td>
+            <td>${dataHoraFormatada}</td>
         `;
 
         tabelaClientes.appendChild(row);
     });
 }
-    const tabelaClientes = document.getElementById('tabela-clientes');
-    const rows = Array.from(tabelaClientes.querySelectorAll('tr'));
-
-    // Limpa e reinsere as linhas ordenadas na tabela
-    tabelaClientes.innerHTML = '';
-    rows.forEach(row => tabelaClientes.appendChild(row));
 
 // Função de busca filtrada
 function filtrarTabela() {
