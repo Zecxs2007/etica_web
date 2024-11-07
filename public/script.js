@@ -1,6 +1,3 @@
-let sortDirection = 1; // 1 para ascendente, -1 para descendente
-let activeColumn = null; // Para rastrear qual coluna está sendo ordenada
-
 // Função principal para buscar e atualizar os dados
 async function main() {
     try {
