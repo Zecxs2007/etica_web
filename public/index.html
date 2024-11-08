@@ -1,40 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados de Clientes</title>
-    <link rel="stylesheet" href="style.css"> <!-- CSS externo -->
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Lista de Clientes</h1>
+    <Div class="tela-login">
+        <h1>Login</h1>
+        <input type="text" placeholder="Nome" id="nome">
+        <br><br>
+        <input type="password" id="senha" placeholder="senha">
+        <br><br>
+        <input type="submit" value="Enviar" id="button" onclick="main()">
+    </Div>
 
-    <div id="search-bar">
-        <input type="text" id="search-input" placeholder="Digite sua pesquisa...">
-        <select id="search-category">
-            <option value="CNPJ">CNPJ</option>
-            <option value="Nome">Nome</option>
-            <option value="QuantidadeCupons">Quantidade de Cupons</option>
-        </select>
-    </div>
-
-    <table>
-        <thead>
-            <tr>
-                <th>CNPJ</th>
-                <th>Nome</th>
-                <th>Quantidade de Cupons</th>
-                <th>Data/Hora da Última Atualização</th>
-            </tr>
-        </thead>
-        <tbody id="tabela-clientes">
-            <!-- Linhas de dados serão inseridas aqui -->
-        </tbody>
-    </table>
-
-    <div id="output"></div>
-    <button id="btn-atualizar" onclick="main()">Atualizar Tabela</button>
-
-    <script src="script.js" defer></script> <!-- Link para o seu script JS -->
+    <script src="script.js"></script>
 </body>
 </html>

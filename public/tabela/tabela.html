@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de Clientes</title>
+    <link rel="stylesheet" href="tabela.css"> <!-- CSS externo -->
+</head>
+<body>
+    <h1>Lista de Clientes</h1>
+
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Digite sua pesquisa...">
+        <select id="search-category">
+            <option value="CNPJ">CNPJ</option>
+            <option value="Nome">Nome</option>
+            <option value="QuantidadeCupons">Quantidade de Cupons</option>
+        </select>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>CNPJ</th>
+                <th>Nome</th>
+                <th>Quantidade de Cupons</th>
+                <th>Data/Hora da Última Atualização</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-clientes">
+            <!-- Linhas de dados serão inseridas aqui -->
+        </tbody>
+    </table>
+
+    <div id="output"></div>
+    <button id="btn-atualizar" onclick="main()">Atualizar Tabela</button>
+
+    <script src="tabela.js" defer></script> <!-- Link para o seu script JS -->
+</body>
+</html>
