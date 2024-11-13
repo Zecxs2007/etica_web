@@ -168,7 +168,8 @@ def configurar_parametros():
     salvar_btn.pack(pady=10)
 
 # Função para criar o ícone da bandeja do sistema
-# Função para criar o ícone da bandeja do sistema
+
+
 def criar_icone_bandeja():
     # Função para desenhar o ícone
     def criar_icone():
@@ -187,6 +188,7 @@ def criar_icone_bandeja():
         icon.stop()
         root.quit()
 
+
     # Função modificada para minimizar a janela principal e exibir o ícone na bandeja
     def minimizar_para_bandeja():
         root.withdraw() # Esconde a janela principal
@@ -198,6 +200,8 @@ def criar_icone_bandeja():
 
     # Associa o evento de minimizar
     root.protocol("WM_DELETE_WINDOW", minimizar_para_bandeja)
+
+    minimizar_para_bandeja()
 
 # Interface gráfica com Tkinter
 def iniciar_interface():
