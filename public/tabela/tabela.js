@@ -1,3 +1,6 @@
+let lastSortedColumn = -1; // Para armazenar a última coluna ordenada
+let isAscending = true; // Para alternar entre crescente e decrescente
+
 // Função principal para buscar e atualizar os dados
 async function main() {
     try {
@@ -64,8 +67,48 @@ function filtrarTabela() {
     });
 }
 
+function sortTableByColumn(index, headerElement) {
+    const tabela = document.querySelector('table');
+    const rows = Array.from(tabela.querySelectorAll('tbody tr'));
+    
+    const isNumeric = index === 2; // Apenas a coluna de "Quantidade de Cupons" é numérica
+
+    // Ordena os dados
+    rows.sort((rowA, rowB) => {
+        const cellA = rowA.children[index].innerText.trim();
+        const cellB = rowB.children[index].innerText.trim();
+
+        if (isNumeric) {
+            // Para a coluna de "Quantidade de Cupons", converte para número
+            const numA = parseInt(cellA, 10);
+            const numB = parseInt(cellB, 10);
+
+            return isAscending ? numA - numB : numB - numA;
+        } else {
+            // Para texto, compara diretamente
+            return isAscending
+                ? cellA.localeCompare(cellB)
+                : cellB.localeCompare(cellA);
+        }
+    });
+
+    // Atualiza a ordem na tabela
+    rows.forEach(row => tabela.querySelector('tbody').appendChild(row));
+
+    // Alterna a direção da ordenação
+    isAscending = (lastSortedColumn === index) ? !isAscending : true;
+    lastSortedColumn = index;
+
+    // Remove as classes de ordenação anteriores
+    document.querySelectorAll('th').forEach(th => th.classList.remove('ascending', 'descending'));
+
+    // Marca a direção da coluna atual
+    headerElement.classList.add(isAscending ? 'ascending' : 'descending');
+}
+
 // Adiciona eventos de clique para ordenar as colunas
 document.querySelectorAll('th').forEach((th, index) => {
+    th.dataset.index = index; // Adiciona o índice de cada coluna para facilitar a ordenação
     th.addEventListener('click', () => sortTableByColumn(index, th));
 });
 
