@@ -29,6 +29,9 @@ function formatarDataHora(dataHoraISO) {
 
 // Função para atualizar a tabela com os dados recebidos ou armazenados
 function atualizarTabela(dados) {
+    // Ordena os dados por "Quantidade de Cupons" em ordem decrescente
+    dados.sort((a, b) => b.QUANTIDADECUPONS - a.QUANTIDADECUPONS);
+
     const tabelaClientes = document.getElementById('tabela-clientes');
     tabelaClientes.innerHTML = ''; // Limpa a tabela antes de inserir novos dados
 

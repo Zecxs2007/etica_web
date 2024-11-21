@@ -40,12 +40,12 @@ th:hover {
 }
 
 th.ascending::after {
-    content: " 🔼"; /* Ícone para ordenação crescente */
+    content: " 🔽";
     margin-left: 5px;
 }
 
 th.descending::after {
-    content: " 🔽"; /* Ícone para ordenação decrescente */
+    content: " 🔼";
     margin-left: 5px;
 }
 
