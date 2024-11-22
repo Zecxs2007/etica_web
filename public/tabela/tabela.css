@@ -63,10 +63,14 @@ tr:hover {
 
 #search-bar {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 20px;
+    justify-content: space-between; /* Campos de pesquisa à esquerda, botão à direita */
+    align-items: center; /* Alinha verticalmente os itens */
     gap: 10px;
+}
+
+#search-elements {
+    display: flex;
+    gap: 10px; /* Espaço entre os campos de pesquisa */
 }
 
 #search-input {

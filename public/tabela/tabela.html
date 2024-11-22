@@ -11,16 +11,16 @@
     <h1>Lista de Clientes</h1>
 
     <div id="search-bar">
-        <input type="text" id="search-input" placeholder="Digite sua pesquisa...">
-        <select id="search-category">
-            <option value="CNPJ">CNPJ</option>
-            <option value="Nome">Nome</option>
-            <option value="QuantidadeCupons">Quantidade de Cupons</option>
-        </select>
+        <div id="search-elements">
+            <input type="text" id="search-input" placeholder="Digite sua pesquisa...">
+            <select id="search-category">
+                <option value="CNPJ">CNPJ</option>
+                <option value="Nome">Nome</option>
+                <option value="QuantidadeCupons">Quantidade de Cupons</option>
+            </select>
+        </div>
+        <button id="btn-atualizar" onclick="main()">Atualizar Tabela</button>
     </div>
-
-    <div id="output"></div>
-    <button id="btn-atualizar" onclick="main()">Atualizar Tabela</button>
     <br>
     <br>
 
