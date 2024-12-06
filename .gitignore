@@ -1,0 +1,3 @@
+DATA/mongod.lock
+DATA/WiredTiger*
+DATA/journal/
