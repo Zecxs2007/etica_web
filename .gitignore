@@ -1,3 +1,4 @@
-DATA/mongod.lock
-DATA/WiredTiger*
-DATA/journal/
+.env
+*.key
+*.pem
+node_modules/
