@@ -12,3 +12,17 @@
   3. Cadastro de clientes
      - Esse projeto visa pegar todos os cadastros de clientes do nosso sistema e colocar na web.
      - Também temos uma ideia de colocar a data de instalação de cada computador.
+# Ajudas
+1. Trazer dados para o computador
+   - primeiramente você deve ter o mongodb e o mongodb tools instalado na sua maquina, segue os links de download
+     - https://www.mongodb.com/try/download/community
+     - https://www.mongodb.com/try/download/database-tools
+        - Lembre se de marcar a opção *Package msi*
+   - Após isso você deve colocar o mongo tools no PATH do windows
+     - localizar onde foi criado a pasta tools, por padrão fica em `C:\Program Files\MongoDB\Tools\100\bin`
+     - Após você vai apertar `win + s` e pesquise por "Váriaveis de ambiente"
+     - Agora é só apertar novamente em "váriaveis de ambiente"
+     - Depois disso vá em "Path" e aperte em editar
+     - depois aperte em "Novo" e coloque o caminho do Mongo tools
+   - Agora você vai abrir o cmd e navegar até o diretório do projeto e escrever o seguinte código:
+     - mongorestore --db etica ./backup/etica
