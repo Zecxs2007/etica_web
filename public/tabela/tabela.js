@@ -4,7 +4,7 @@ let isAscending = true; // Para alternar entre crescente e decrescente
 // Função principal para buscar e atualizar os dados
 async function main() {
     try {
-        const response = await fetch('http://38.114.119.39:9834/dados');
+        const response = await fetch('http://127.0.0.1:9834/dados');
         const dados = await response.json();
         
         // Armazenar os dados no localStorage

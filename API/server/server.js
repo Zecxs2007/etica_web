@@ -1,53 +1,46 @@
 const express = require('express');
-const Firebird = require('node-firebird');
+const { MongoClient } = require('mongodb');
 const cors = require('cors');
-const path = require('path');
 
 const app = express();
 const port = 9834;
 
-// Permite que o frontend (public/index.js) faça requisições para o backend
+// Configuração do MongoDB
+const uri = 'mongodb://127.0.0.1:27017';
+const dbName = 'etica';
+
 app.use(cors());
 
-// Configurações de conexão com o Firebird
-const options = {
-    host: '10.100.141.1', 
-    port: 3050,        
-    database: path.join(__dirname, '../DADOS.FDB'),
-    user: 'SYSDBA',
-    password: 'masterkey',
-    lowercase_keys: false,
-    role: null,
-    pageSize: 4096
-};
+app.get('/dados', async (req, res) => {
+    const client = new MongoClient(uri);
+    
+    try {
+        // Conecta ao MongoDB
+        await client.connect();
+        const db = client.db(dbName);
+        const collection = db.collection('clientes');
+        
+        // Busca os dados na coleção
+        const data = await collection.find({}).toArray();
 
-// Endpoint para buscar dados
-app.get('/dados', (req, res) => {
-    Firebird.attach(options, (err, db) => {
-        if (err) {
-            console.error('Erro ao conectar ao banco:', err);
-            return res.status(500).json({ error: 'Erro de conexão com o banco' });
-        }
+        // Formata os dados no formato esperado
+        const formattedData = data.map(item => ({
+            CNPJ: item.CNPJ,
+            NOME: item.NOME,
+            QUANTIDADECUPONS: item.QUANTIDADECUPONS,
+            DATAHORA: item.DATAHORA,
+        }));
 
-        // Consulta ao banco
-        db.query('SELECT * FROM CLIENTES', (err, result) => {
-            if (err) {
-                console.error('Erro na consulta:', err);
-                res.status(500).json({ error: 'Erro ao buscar dados' });
-            } else {
-                // Loga os dados no console do servidor
-                console.log('Dados recebidos do banco de dados Firebird:', result);
-
-                // Envia os dados como resposta JSON para o frontend
-                res.json(result);
-            }
-
-            db.detach(); // Fecha a conexão
-        });
-    });
+        // Retorna os dados formatados como JSON
+        res.json(formattedData);
+    } catch (err) {
+        console.error('Erro ao buscar dados:', err);
+        res.status(500).json({ error: 'Erro ao buscar dados no MongoDB' });
+    } finally {
+        await client.close(); // Fecha a conexão com o MongoDB
+    }
 });
 
-// Inicia o servidor na porta 3000
 app.listen(port, () => {
     console.log(`Servidor rodando em ${port}`);
 });
