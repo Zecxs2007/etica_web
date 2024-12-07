@@ -5,7 +5,7 @@ const fs = require('fs');
 const app = express();
 const port = 7584;
 
-const uri = 'mongodb://localhost:27017'; // URI do MongoDB
+const uri = 'mongodb://127.0.0.1:27017'; // URI do MongoDB
 const client = new MongoClient(uri);
 const dbName = 'etica'; // Nome do banco de dados
 
