@@ -36,8 +36,14 @@ async function dados(req, res) {
     }
 
     // Validação dos campos obrigatórios
-    if (!CNPJ || !Nome || !DataHora) {
+    if (!CNPJ || !Nome || !QuantidadeCupons || !DataHora) {
         return res.status(400).json({ error: 'Todos os campos são obrigatórios!' });
+    }
+
+    // Conversão de DataHora para o tipo Date
+    const dataHoraDate = new Date(DataHora);
+    if (isNaN(dataHoraDate.getTime())) {
+        return res.status(400).json({ error: 'Formato de DataHora inválido!' });
     }
 
     try {
@@ -50,12 +56,12 @@ async function dados(req, res) {
             // Atualiza o cliente se já existir
             await collection.updateOne(
                 { CNPJ },
-                { $set: { Nome, QuantidadeCupons, DataHora } }
+                { $set: { Nome, QuantidadeCupons, DataHora: dataHoraDate } }
             );
             return res.json({ message: 'Cliente atualizado com sucesso!' });
         } else {
             // Insere o cliente se não existir
-            await collection.insertOne({ CNPJ, Nome, QuantidadeCupons, DataHora });
+            await collection.insertOne({ CNPJ, Nome, QuantidadeCupons, DataHora: dataHoraDate });
             return res.json({ message: 'Cliente inserido com sucesso!' });
         }
     } catch (error) {

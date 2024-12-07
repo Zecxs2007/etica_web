@@ -26,9 +26,9 @@ app.get('/dados', async (req, res) => {
         // Formata os dados no formato esperado
         const formattedData = data.map(item => ({
             CNPJ: item.CNPJ,
-            NOME: item.NOME,
-            QUANTIDADECUPONS: item.QUANTIDADECUPONS,
-            DATAHORA: item.DATAHORA,
+            NOME: item.Nome,
+            QUANTIDADECUPONS: item.QuantidadeCupons,
+            DATAHORA: item.DataHora,
         }));
 
         // Retorna os dados formatados como JSON
