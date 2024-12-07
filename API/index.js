@@ -1,35 +1,35 @@
 const express = require('express');
-const Firebird = require('node-firebird');
-const ini = require('ini');
+const { MongoClient } = require('mongodb');
 const fs = require('fs');
 
 const app = express();
+const port = 7584;
 
-// Ler as configurações do arquivo config.ini
-const config = ini.parse(fs.readFileSync('./config.ini', 'utf-8'));
-
-// Configurações do Firebird a partir do arquivo .ini
-const options = {
-    host: config.database.host,
-    port: config.database.port,
-    database: config.database.database,
-    user: config.database.user,
-    password: config.database.password,
-    lowercase_keys: false,
-    role: null,
-    pageSize: 4096
-};
+const uri = 'mongodb://localhost:27017'; // URI do MongoDB
+const client = new MongoClient(uri);
+const dbName = 'etica'; // Nome do banco de dados
 
 // Senha de autenticação
 const API_SECRET_PASSWORD = 'trigominas2025';
 
-app.use(express.json()); // Para poder receber JSON no body da requisição
+app.use(express.json()); // Para receber JSON no body da requisição
+
+// Função para conectar ao MongoDB
+async function connectMongo() {
+    try {
+        await client.connect();
+        console.log('Conectado ao MongoDB');
+        return client.db('etica');
+    } catch (error) {
+        console.error('Erro ao conectar:', error);
+        throw error;
+    }
+}
 
 // Função para gravar ou atualizar dados
-function dados(req, res) {
+async function dados(req, res) {
     const { CNPJ, Nome, QuantidadeCupons, DataHora, senha } = req.body;
 
-    console.log(req.body)
     // Validação da senha
     if (senha !== API_SECRET_PASSWORD) {
         return res.status(403).json({ error: 'Acesso negado: senha inválida' });
@@ -40,56 +40,33 @@ function dados(req, res) {
         return res.status(400).json({ error: 'Todos os campos são obrigatórios!' });
     }
 
-    // Conectar ao banco Firebird
-    Firebird.attach(options, function (err, db) {
-        if (err) {
-            return res.status(500).json({ error: 'Erro ao conectar ao banco de dados' });
-        }
+    try {
+        const db = await connectMongo();
+        const collection = db.collection('clientes'); // Nome da coleção
 
         // Verifica se o cliente já existe
-        const sqlSelect = 'SELECT * FROM CLIENTES WHERE CNPJ = ?';
-        db.query(sqlSelect, [CNPJ], function (err, result) {
-            if (err) {
-                db.detach();
-                return res.status(500).json({ error: 'Erro ao consultar o banco de dados' });
-            }
-
-            if (result.length > 0) {
-                // Se o cliente existe, atualiza o registro
-                const sqlUpdate = `
-                    UPDATE CLIENTES 
-                    SET Nome = ?, QuantidadeCupons = ?, DataHora = ? 
-                    WHERE CNPJ = ?`;
-
-                db.query(sqlUpdate, [Nome, QuantidadeCupons, DataHora, CNPJ], function (err) {
-                    db.detach();
-                    if (err) {
-                        return res.status(500).json({ error: 'Erro ao atualizar os dados do cliente' });
-                    }
-                    return res.json({ message: 'Cliente atualizado com sucesso!' });
-                });
-            } else {
-                // Se o cliente não existe, insere um novo registro
-                const sqlInsert = `
-                    INSERT INTO CLIENTES (CNPJ, Nome, QuantidadeCupons, DataHora)
-                    VALUES (?, ?, ?, ?)`;
-
-                db.query(sqlInsert, [CNPJ, Nome, QuantidadeCupons, DataHora], function (err) {
-                    db.detach();
-                    if (err) {
-                        return res.status(500).json({ error: 'Erro ao inserir os dados do cliente' });
-                    }
-                    return res.json({ message: 'Cliente inserido com sucesso!' });
-                });
-            }
-        });
-    });
+        const existingClient = await collection.findOne({ CNPJ });
+        if (existingClient) {
+            // Atualiza o cliente se já existir
+            await collection.updateOne(
+                { CNPJ },
+                { $set: { Nome, QuantidadeCupons, DataHora } }
+            );
+            return res.json({ message: 'Cliente atualizado com sucesso!' });
+        } else {
+            // Insere o cliente se não existir
+            await collection.insertOne({ CNPJ, Nome, QuantidadeCupons, DataHora });
+            return res.json({ message: 'Cliente inserido com sucesso!' });
+        }
+    } catch (error) {
+        console.error('Erro ao gravar ou atualizar os dados:', error);
+        return res.status(500).json({ error: 'Erro ao processar os dados' });
+    }
 }
 
 // Rota para receber os dados dos cupons
 app.post('/dados', dados);
 
-const PORT = 7584;
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Servidor rodando na porta ${PORT}`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Servidor rodando na porta ${port}`);
 });

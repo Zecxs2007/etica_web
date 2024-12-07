@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "ini": "^5.0.0",
+    "mongodb": "^6.11.0",
     "node-firebird": "^1.1.9"
   }
 }
